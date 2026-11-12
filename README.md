@@ -38,7 +38,7 @@ The `dist/` folder is the finished website: one HTML file per page (`index.html`
    its own title, description, link-preview tags (WhatsApp, Facebook, X), the page content and prices, and structured data for
    Google (salon, address, map pin, hours, and the services with prices). The app then takes over in the browser.
 
-Set `SITE_URL` (in `.env` or the host's build settings) to the live address, e.g. `https://habibsfuljhore.in`, to also get
+Set `SITE_URL` in `.env.production` (committed; currently the pages.dev address) or in the host's build settings to the live address, e.g. `https://habibsfuljhore.in`, to also get
 canonical links, absolute preview images, `sitemap.xml` and a `robots.txt` pointing to it. Then add the site in
 **Google Search Console** and submit `https://YOUR-DOMAIN/sitemap.xml`.
 
