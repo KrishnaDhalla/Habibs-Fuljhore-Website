@@ -1,0 +1,3287 @@
+{
+ "menu": [
+  {
+   "id": "mens-cut",
+   "cat": "hair",
+   "tab": "Cuts & Styling",
+   "uid": "6a5dc8aa-d00a-4882-b028-2d4823ec9cdd",
+   "desc": null,
+   "note": null,
+   "type": "Cut & Style",
+   "image": null,
+   "items": [
+    {
+     "n": "Haircut & Styling",
+     "p": [
+      349
+     ],
+     "dur": null,
+     "for": "men",
+     "inc": [],
+     "lbl": null,
+     "sub": null,
+     "uid": "3d928e33-0560-4828-b769-622baf3feb1e",
+     "book": true,
+     "desc": null,
+     "from": false,
+     "slug": "mens-haircut-and-styling",
+     "extra": null,
+     "sized": false,
+     "featured": false,
+     "bill_name": "Men's Haircut & Styling"
+    },
+    {
+     "n": "Kids' Haircut (Boys, under 10)",
+     "p": [
+      199
+     ],
+     "dur": null,
+     "for": "men",
+     "inc": [],
+     "lbl": null,
+     "sub": null,
+     "uid": "5daea5ec-9640-4177-8ed8-836c8b70a128",
+     "book": true,
+     "desc": null,
+     "from": false,
+     "slug": "kids-haircut-boys-under-10",
+     "extra": null,
+     "sized": false,
+     "featured": false,
+     "bill_name": "Kids' Haircut (Boys, under 10)"
+    },
+    {
+     "n": "Beard Trim / Shape",
+     "p": [
+      199
+     ],
+     "dur": null,
+     "for": "men",
+     "inc": [],
+     "lbl": null,
+     "sub": null,
+     "uid": "a65a0153-6958-493f-9687-79e93ae56675",
+     "book": true,
+     "desc": null,
+     "from": false,
+     "slug": "beard-trim-shape",
+     "extra": null,
+     "sized": false,
+     "featured": false,
+     "bill_name": "Beard Trim / Shape"
+    },
+    {
+     "n": "Shave",
+     "p": [
+      149
+     ],
+     "dur": null,
+     "for": "men",
+     "inc": [],
+     "lbl": null,
+     "sub": null,
+     "uid": "f729b345-ea3e-4fff-8f0d-48733644ae11",
+     "book": true,
+     "desc": null,
+     "from": false,
+     "slug": "shave",
+     "extra": null,
+     "sized": false,
+     "featured": false,
+     "bill_name": "Shave"
+    },
+    {
+     "n": "Head Shave",
+     "p": [
+      249
+     ],
+     "dur": null,
+     "for": "men",
+     "inc": [],
+     "lbl": null,
+     "sub": null,
+     "uid": "0a08c7ad-b1bb-4d4e-94d0-9552af2a3190",
+     "book": true,
+     "desc": null,
+     "from": false,
+     "slug": "head-shave",
+     "extra": null,
+     "sized": false,
+     "featured": false,
+     "bill_name": "Head Shave"
+    },
+    {
+     "n": "Hair Wash & Blow-dry",
+     "p": [
+      149
+     ],
+     "dur": null,
+     "for": "men",
+     "inc": [],
+     "lbl": null,
+     "sub": null,
+     "uid": "fe975175-55a9-4014-a559-d3ccdbee4fbc",
+     "book": true,
+     "desc": null,
+     "from": false,
+     "slug": "mens-hair-wash-and-blow-dry",
+     "extra": null,
+     "sized": false,
+     "featured": false,
+     "bill_name": "Men's Hair Wash & Blow-dry"
+    }
+   ],
+   "title": "Men's Cut & Grooming",
+   "consult": false
+  },
+  {
+   "id": "womens-cut",
+   "cat": "hair",
+   "tab": "Cuts & Styling",
+   "uid": "a3719783-6e98-4ad6-9636-ec1835998f28",
+   "desc": null,
+   "note": null,
+   "type": "Cut & Style",
+   "image": null,
+   "items": [
+    {
+     "n": "Haircut & Styling",
+     "p": [
+      499
+     ],
+     "dur": null,
+     "for": "women",
+     "inc": [],
+     "lbl": null,
+     "sub": null,
+     "uid": "763212fa-2339-4c55-859c-48fdf4ab5900",
+     "book": true,
+     "desc": null,
+     "from": false,
+     "slug": "womens-haircut-and-styling",
+     "extra": null,
+     "sized": false,
+     "featured": false,
+     "bill_name": "Women's Haircut & Styling"
+    },
+    {
+     "n": "Kids' Haircut (Girls, under 10)",
+     "p": [
+      299
+     ],
+     "dur": null,
+     "for": "women",
+     "inc": [],
+     "lbl": null,
+     "sub": null,
+     "uid": "0be12134-2c76-4a4e-8127-2dbcc1fe9956",
+     "book": true,
+     "desc": null,
+     "from": false,
+     "slug": "kids-haircut-girls-under-10",
+     "extra": null,
+     "sized": false,
+     "featured": false,
+     "bill_name": "Kids' Haircut (Girls, under 10)"
+    },
+    {
+     "n": "Hair Wash & Blow-dry",
+     "p": [
+      399
+     ],
+     "dur": null,
+     "for": "women",
+     "inc": [],
+     "lbl": null,
+     "sub": null,
+     "uid": "1d45f9b6-f389-4d5c-be13-05351a70bd8b",
+     "book": true,
+     "desc": null,
+     "from": false,
+     "slug": "womens-hair-wash-and-blow-dry",
+     "extra": null,
+     "sized": false,
+     "featured": false,
+     "bill_name": "Women's Hair Wash & Blow-dry"
+    },
+    {
+     "n": "Ironing / Tongs / Crimping / Roller Set",
+     "p": [
+      999
+     ],
+     "dur": null,
+     "for": "women",
+     "inc": [],
+     "lbl": null,
+     "sub": null,
+     "uid": "4043642a-450a-493c-a003-6fbbf12e25b2",
+     "book": true,
+     "desc": null,
+     "from": false,
+     "slug": "ironing-tongs-crimping-roller-set",
+     "extra": null,
+     "sized": false,
+     "featured": false,
+     "bill_name": "Ironing / Tongs / Crimping / Roller Set"
+    }
+   ],
+   "title": "Women's Cut & Styling",
+   "consult": false
+  },
+  {
+   "id": "mens-colour",
+   "cat": "hair",
+   "tab": "Colour",
+   "uid": "45950101-595c-4fe3-a168-ddd6b521f5e4",
+   "desc": null,
+   "note": "Colour includes wash & blow-dry. Patch test 48 hours before your first colour.",
+   "type": "Colour",
+   "image": null,
+   "items": [
+    {
+     "n": "Global Colour",
+     "p": [
+      1199
+     ],
+     "dur": null,
+     "for": "men",
+     "inc": [],
+     "lbl": null,
+     "sub": null,
+     "uid": "0f6a9c49-1638-45e2-a0ef-3a7bd1fcc6b9",
+     "book": true,
+     "desc": null,
+     "from": false,
+     "slug": "mens-global-colour",
+     "extra": null,
+     "sized": false,
+     "featured": false,
+     "bill_name": "Men's Global Colour"
+    },
+    {
+     "n": "Global Colour, Ammonia-free",
+     "p": [
+      1399
+     ],
+     "dur": null,
+     "for": "men",
+     "inc": [],
+     "lbl": null,
+     "sub": null,
+     "uid": "fa272dbc-76bf-4118-82bf-eac9ede5d3c4",
+     "book": true,
+     "desc": null,
+     "from": false,
+     "slug": "mens-global-colour-ammonia-free",
+     "extra": null,
+     "sized": false,
+     "featured": false,
+     "bill_name": "Men's Global Colour, Ammonia-free"
+    },
+    {
+     "n": "Highlights",
+     "p": [
+      1299
+     ],
+     "dur": null,
+     "for": "men",
+     "inc": [],
+     "lbl": null,
+     "sub": null,
+     "uid": "2c0a8cd7-933d-4a4b-98b5-ab2462d2600b",
+     "book": true,
+     "desc": null,
+     "from": false,
+     "slug": "mens-highlights",
+     "extra": null,
+     "sized": false,
+     "featured": false,
+     "bill_name": "Men's Highlights"
+    },
+    {
+     "n": "Per Streak",
+     "p": [
+      149
+     ],
+     "dur": null,
+     "for": "men",
+     "inc": [],
+     "lbl": null,
+     "sub": null,
+     "uid": "029bffd8-fbe8-4347-b3e0-4b1e82dfe4f5",
+     "book": true,
+     "desc": null,
+     "from": false,
+     "slug": "mens-per-streak",
+     "extra": null,
+     "sized": false,
+     "featured": false,
+     "bill_name": "Men's Per Streak"
+    },
+    {
+     "n": "Beard Colour",
+     "p": [
+      299
+     ],
+     "dur": null,
+     "for": "men",
+     "inc": [],
+     "lbl": null,
+     "sub": null,
+     "uid": "f3d812a7-98ca-4e7e-946f-b37d47975e65",
+     "book": true,
+     "desc": null,
+     "from": false,
+     "slug": "beard-colour",
+     "extra": null,
+     "sized": false,
+     "featured": false,
+     "bill_name": "Beard Colour"
+    }
+   ],
+   "title": "Men's Colour",
+   "consult": false
+  },
+  {
+   "id": "womens-colour",
+   "cat": "hair",
+   "tab": "Colour",
+   "uid": "74064d68-1ce9-411a-aec9-b02fae9023e3",
+   "desc": null,
+   "note": "Colour includes wash & blow-dry. Patch test 48 hours before your first colour. Prices by hair length.",
+   "type": "Colour",
+   "image": null,
+   "items": [
+    {
+     "n": "Root Touch-up",
+     "p": [
+      1299
+     ],
+     "dur": null,
+     "for": "women",
+     "inc": [],
+     "lbl": null,
+     "sub": null,
+     "uid": "cbf580e1-e345-4785-bca4-8c16f369fc28",
+     "book": true,
+     "desc": null,
+     "from": true,
+     "slug": "root-touch-up",
+     "extra": null,
+     "sized": false,
+     "featured": false,
+     "bill_name": "Root Touch-up"
+    },
+    {
+     "n": "Root Touch-up, Ammonia-free",
+     "p": [
+      1499
+     ],
+     "dur": null,
+     "for": "women",
+     "inc": [],
+     "lbl": null,
+     "sub": null,
+     "uid": "63cba833-d464-4f8b-aa3e-b5ed6443c9cf",
+     "book": true,
+     "desc": null,
+     "from": true,
+     "slug": "root-touch-up-ammonia-free",
+     "extra": null,
+     "sized": false,
+     "featured": false,
+     "bill_name": "Root Touch-up, Ammonia-free"
+    },
+    {
+     "n": "Global Colour",
+     "p": [
+      2999,
+      3499,
+      3999,
+      4499
+     ],
+     "dur": null,
+     "for": "women",
+     "inc": [],
+     "lbl": [
+      "S",
+      "M",
+      "L",
+      "XL"
+     ],
+     "sub": null,
+     "uid": "3fa95495-2e2b-44c3-bf18-3e0d33bd4da4",
+     "book": true,
+     "desc": null,
+     "from": false,
+     "slug": "womens-global-colour",
+     "extra": null,
+     "sized": true,
+     "featured": false,
+     "bill_name": "Women's Global Colour"
+    },
+    {
+     "n": "Global Colour, Ammonia-free",
+     "p": [
+      3999,
+      4499,
+      4999,
+      5499
+     ],
+     "dur": null,
+     "for": "women",
+     "inc": [],
+     "lbl": [
+      "S",
+      "M",
+      "L",
+      "XL"
+     ],
+     "sub": null,
+     "uid": "5cf072cf-a2ed-4e0a-84e8-a0cbc03e85d3",
+     "book": true,
+     "desc": null,
+     "from": false,
+     "slug": "womens-global-colour-ammonia-free",
+     "extra": null,
+     "sized": true,
+     "featured": false,
+     "bill_name": "Women's Global Colour, Ammonia-free"
+    },
+    {
+     "n": "Crown Highlights",
+     "p": [
+      1999,
+      2499,
+      2999,
+      3499
+     ],
+     "dur": null,
+     "for": "women",
+     "inc": [],
+     "lbl": [
+      "S",
+      "M",
+      "L",
+      "XL"
+     ],
+     "sub": null,
+     "uid": "71971950-b50b-43eb-b7cb-b4b4b9e78847",
+     "book": true,
+     "desc": null,
+     "from": false,
+     "slug": "crown-highlights",
+     "extra": null,
+     "sized": true,
+     "featured": false,
+     "bill_name": "Crown Highlights"
+    },
+    {
+     "n": "T-section Highlights",
+     "p": [
+      2999,
+      3499,
+      3999,
+      4499
+     ],
+     "dur": null,
+     "for": "women",
+     "inc": [],
+     "lbl": [
+      "S",
+      "M",
+      "L",
+      "XL"
+     ],
+     "sub": null,
+     "uid": "fa98f83d-6ad3-4b80-bbb5-8756f1ea935c",
+     "book": true,
+     "desc": null,
+     "from": false,
+     "slug": "t-section-highlights",
+     "extra": null,
+     "sized": true,
+     "featured": false,
+     "bill_name": "T-section Highlights"
+    },
+    {
+     "n": "Full Highlights",
+     "p": [
+      4499,
+      4999,
+      5499,
+      5999
+     ],
+     "dur": null,
+     "for": "women",
+     "inc": [],
+     "lbl": [
+      "S",
+      "M",
+      "L",
+      "XL"
+     ],
+     "sub": null,
+     "uid": "d3471273-410c-4ed4-88e1-b1e5d42083df",
+     "book": true,
+     "desc": null,
+     "from": false,
+     "slug": "full-highlights",
+     "extra": null,
+     "sized": true,
+     "featured": false,
+     "bill_name": "Full Highlights"
+    },
+    {
+     "n": "Ombre",
+     "p": [
+      3999,
+      4499,
+      4999,
+      5499
+     ],
+     "dur": null,
+     "for": "women",
+     "inc": [],
+     "lbl": [
+      "S",
+      "M",
+      "L",
+      "XL"
+     ],
+     "sub": null,
+     "uid": "cdef8eef-62e9-441f-bebf-c81ac93a6067",
+     "book": true,
+     "desc": null,
+     "from": false,
+     "slug": "ombre",
+     "extra": null,
+     "sized": true,
+     "featured": false,
+     "bill_name": "Ombre"
+    },
+    {
+     "n": "Sombre",
+     "p": [
+      4999,
+      5499,
+      5999,
+      6499
+     ],
+     "dur": null,
+     "for": "women",
+     "inc": [],
+     "lbl": [
+      "S",
+      "M",
+      "L",
+      "XL"
+     ],
+     "sub": null,
+     "uid": "542d4ef4-babb-416a-9062-de750ff04fb0",
+     "book": true,
+     "desc": null,
+     "from": false,
+     "slug": "sombre",
+     "extra": null,
+     "sized": true,
+     "featured": false,
+     "bill_name": "Sombre"
+    },
+    {
+     "n": "Balayage",
+     "p": [
+      5499,
+      5999,
+      6499,
+      6999
+     ],
+     "dur": null,
+     "for": "women",
+     "inc": [],
+     "lbl": [
+      "S",
+      "M",
+      "L",
+      "XL"
+     ],
+     "sub": null,
+     "uid": "98c633ad-10e9-4267-a629-0a5fe26da9de",
+     "book": true,
+     "desc": null,
+     "from": false,
+     "slug": "balayage",
+     "extra": null,
+     "sized": true,
+     "featured": false,
+     "bill_name": "Balayage"
+    },
+    {
+     "n": "Per Streak",
+     "p": [
+      299
+     ],
+     "dur": null,
+     "for": "women",
+     "inc": [],
+     "lbl": null,
+     "sub": null,
+     "uid": "85bcbf20-135b-4602-807f-2583427e812c",
+     "book": true,
+     "desc": null,
+     "from": false,
+     "slug": "womens-per-streak",
+     "extra": null,
+     "sized": false,
+     "featured": false,
+     "bill_name": "Women's Per Streak"
+    },
+    {
+     "n": "Extra-thick Hair (Highlights Add-on)",
+     "p": [
+      999
+     ],
+     "dur": null,
+     "for": "women",
+     "inc": [],
+     "lbl": null,
+     "sub": null,
+     "uid": "1ae487a2-0317-4769-966f-f0c54e028da5",
+     "book": true,
+     "desc": null,
+     "from": true,
+     "slug": "extra-thick-hair-highlights-add-on",
+     "extra": null,
+     "sized": false,
+     "featured": false,
+     "bill_name": "Extra-thick Hair (Highlights Add-on)"
+    }
+   ],
+   "title": "Women's Colour",
+   "consult": false
+  },
+  {
+   "id": "mens-hair-spa",
+   "cat": "hair",
+   "tab": "Spa & Treatments",
+   "uid": "cc313fc9-240a-426c-80fd-7906cfbd012e",
+   "desc": null,
+   "note": null,
+   "type": "Spa & Treatment",
+   "image": null,
+   "items": [
+    {
+     "n": "Wella Classic Hair Spa",
+     "p": [
+      799
+     ],
+     "dur": null,
+     "for": "men",
+     "inc": [],
+     "lbl": null,
+     "sub": null,
+     "uid": "04150285-5339-4d0b-85be-86362e87fe66",
+     "book": true,
+     "desc": null,
+     "from": false,
+     "slug": "mens-wella-classic-hair-spa",
+     "extra": null,
+     "sized": false,
+     "featured": false,
+     "bill_name": "Men's Wella Classic Hair Spa"
+    },
+    {
+     "n": "Wella Nourishing / Repair Hair Spa",
+     "p": [
+      999
+     ],
+     "dur": null,
+     "for": "men",
+     "inc": [],
+     "lbl": null,
+     "sub": null,
+     "uid": "3c2cbdc0-f7f9-4570-8f6c-27853490c85f",
+     "book": true,
+     "desc": null,
+     "from": false,
+     "slug": "mens-wella-nourishing-repair-hair-spa",
+     "extra": null,
+     "sized": false,
+     "featured": false,
+     "bill_name": "Men's Wella Nourishing / Repair Hair Spa"
+    },
+    {
+     "n": "L'Oreal Classic Hair Spa",
+     "p": [
+      699
+     ],
+     "dur": null,
+     "for": "men",
+     "inc": [],
+     "lbl": null,
+     "sub": null,
+     "uid": "c77a29ea-f75b-457f-8c13-5f07422b1825",
+     "book": true,
+     "desc": null,
+     "from": false,
+     "slug": "mens-loreal-classic-hair-spa",
+     "extra": null,
+     "sized": false,
+     "featured": false,
+     "bill_name": "Men's L'Oreal Classic Hair Spa"
+    },
+    {
+     "n": "L'Oreal Nourishing / Repair Hair Spa",
+     "p": [
+      799
+     ],
+     "dur": null,
+     "for": "men",
+     "inc": [],
+     "lbl": null,
+     "sub": null,
+     "uid": "d5f9a49a-3aeb-49a8-8ef8-0d83abaf4a10",
+     "book": true,
+     "desc": null,
+     "from": false,
+     "slug": "mens-loreal-nourishing-repair-hair-spa",
+     "extra": null,
+     "sized": false,
+     "featured": false,
+     "bill_name": "Men's L'Oreal Nourishing / Repair Hair Spa"
+    },
+    {
+     "n": "Streax Classic Hair Spa",
+     "p": [
+      499
+     ],
+     "dur": null,
+     "for": "men",
+     "inc": [],
+     "lbl": null,
+     "sub": null,
+     "uid": "2d761a8d-1872-44ad-9d51-ba53c15a38d7",
+     "book": true,
+     "desc": null,
+     "from": false,
+     "slug": "mens-streax-classic-hair-spa",
+     "extra": null,
+     "sized": false,
+     "featured": false,
+     "bill_name": "Men's Streax Classic Hair Spa"
+    },
+    {
+     "n": "Streax Nourishing / Repair Hair Spa",
+     "p": [
+      499
+     ],
+     "dur": null,
+     "for": "men",
+     "inc": [],
+     "lbl": null,
+     "sub": null,
+     "uid": "37fe3ed0-c705-4d56-827f-adf652753bdc",
+     "book": true,
+     "desc": null,
+     "from": false,
+     "slug": "mens-streax-nourishing-repair-hair-spa",
+     "extra": null,
+     "sized": false,
+     "featured": false,
+     "bill_name": "Men's Streax Nourishing / Repair Hair Spa"
+    },
+    {
+     "n": "Keratin Wash",
+     "p": [
+      299
+     ],
+     "dur": null,
+     "for": "men",
+     "inc": [],
+     "lbl": null,
+     "sub": null,
+     "uid": "05fcc149-c1bf-4c4c-a57d-01914027ef99",
+     "book": true,
+     "desc": null,
+     "from": false,
+     "slug": "mens-keratin-wash",
+     "extra": null,
+     "sized": false,
+     "featured": false,
+     "bill_name": "Men's Keratin Wash"
+    },
+    {
+     "n": "Anti-dandruff Treatment",
+     "p": [
+      1499
+     ],
+     "dur": null,
+     "for": "men",
+     "inc": [],
+     "lbl": null,
+     "sub": null,
+     "uid": "f6be6358-fd40-4247-a718-fc1a636820f8",
+     "book": true,
+     "desc": null,
+     "from": false,
+     "slug": "mens-anti-dandruff-treatment",
+     "extra": null,
+     "sized": false,
+     "featured": false,
+     "bill_name": "Men's Anti-dandruff Treatment"
+    },
+    {
+     "n": "Head Massage, 30 min",
+     "p": [
+      499
+     ],
+     "dur": null,
+     "for": "men",
+     "inc": [],
+     "lbl": null,
+     "sub": null,
+     "uid": "f2c6ea43-9fbc-4f2b-9532-b5f5ad8fdb8f",
+     "book": true,
+     "desc": null,
+     "from": false,
+     "slug": "mens-head-massage-30-min",
+     "extra": null,
+     "sized": false,
+     "featured": false,
+     "bill_name": "Men's Head Massage, 30 min"
+    }
+   ],
+   "title": "Men's Hair Spa",
+   "consult": false
+  },
+  {
+   "id": "womens-hair-spa",
+   "cat": "hair",
+   "tab": "Spa & Treatments",
+   "uid": "efe233e4-1b63-4fbb-8939-84ee56b184a4",
+   "desc": null,
+   "note": "Prices depend on hair length & density; final price after consultation.",
+   "type": "Spa & Treatment",
+   "image": null,
+   "items": [
+    {
+     "n": "Wella Classic Hair Spa",
+     "p": [
+      1499
+     ],
+     "dur": null,
+     "for": "women",
+     "inc": [],
+     "lbl": null,
+     "sub": null,
+     "uid": "ce95937d-25ae-4942-a74b-8143735a23fb",
+     "book": true,
+     "desc": null,
+     "from": true,
+     "slug": "womens-wella-classic-hair-spa",
+     "extra": null,
+     "sized": false,
+     "featured": false,
+     "bill_name": "Women's Wella Classic Hair Spa"
+    },
+    {
+     "n": "Wella Nourishing / Repair Hair Spa",
+     "p": [
+      2299
+     ],
+     "dur": null,
+     "for": "women",
+     "inc": [],
+     "lbl": null,
+     "sub": null,
+     "uid": "949c1c80-0a98-4f0b-ae90-00a6ee8c1185",
+     "book": true,
+     "desc": null,
+     "from": true,
+     "slug": "womens-wella-nourishing-repair-hair-spa",
+     "extra": null,
+     "sized": false,
+     "featured": false,
+     "bill_name": "Women's Wella Nourishing / Repair Hair Spa"
+    },
+    {
+     "n": "L'Oreal Classic Hair Spa",
+     "p": [
+      1499
+     ],
+     "dur": null,
+     "for": "women",
+     "inc": [],
+     "lbl": null,
+     "sub": null,
+     "uid": "237b25da-9ff0-4b56-bb9c-a5127c9ab1f1",
+     "book": true,
+     "desc": null,
+     "from": true,
+     "slug": "womens-loreal-classic-hair-spa",
+     "extra": null,
+     "sized": false,
+     "featured": false,
+     "bill_name": "Women's L'Oreal Classic Hair Spa"
+    },
+    {
+     "n": "L'Oreal Nourishing / Repair Hair Spa",
+     "p": [
+      1999
+     ],
+     "dur": null,
+     "for": "women",
+     "inc": [],
+     "lbl": null,
+     "sub": null,
+     "uid": "563aa0f5-dc09-4d3a-87fb-607dc097f902",
+     "book": true,
+     "desc": null,
+     "from": true,
+     "slug": "womens-loreal-nourishing-repair-hair-spa",
+     "extra": null,
+     "sized": false,
+     "featured": false,
+     "bill_name": "Women's L'Oreal Nourishing / Repair Hair Spa"
+    },
+    {
+     "n": "Streax Classic Hair Spa",
+     "p": [
+      999
+     ],
+     "dur": null,
+     "for": "women",
+     "inc": [],
+     "lbl": null,
+     "sub": null,
+     "uid": "341ff8da-7216-4fa2-ad48-fa06e91c6cb8",
+     "book": true,
+     "desc": null,
+     "from": true,
+     "slug": "womens-streax-classic-hair-spa",
+     "extra": null,
+     "sized": false,
+     "featured": false,
+     "bill_name": "Women's Streax Classic Hair Spa"
+    },
+    {
+     "n": "Streax Nourishing / Repair Hair Spa",
+     "p": [
+      1299
+     ],
+     "dur": null,
+     "for": "women",
+     "inc": [],
+     "lbl": null,
+     "sub": null,
+     "uid": "28adfdf0-10f2-41bc-a5a1-4baa9a07bf3c",
+     "book": true,
+     "desc": null,
+     "from": true,
+     "slug": "womens-streax-nourishing-repair-hair-spa",
+     "extra": null,
+     "sized": false,
+     "featured": false,
+     "bill_name": "Women's Streax Nourishing / Repair Hair Spa"
+    },
+    {
+     "n": "Keratin Wash",
+     "p": [
+      799
+     ],
+     "dur": null,
+     "for": "women",
+     "inc": [],
+     "lbl": null,
+     "sub": null,
+     "uid": "32b7a7e3-b43b-4693-91ec-3ce53059e25e",
+     "book": true,
+     "desc": null,
+     "from": true,
+     "slug": "womens-keratin-wash",
+     "extra": null,
+     "sized": false,
+     "featured": false,
+     "bill_name": "Women's Keratin Wash"
+    },
+    {
+     "n": "Anti-dandruff Treatment",
+     "p": [
+      1499
+     ],
+     "dur": null,
+     "for": "women",
+     "inc": [],
+     "lbl": null,
+     "sub": null,
+     "uid": "875b1fde-da2c-4fe1-a863-1e7992c3050e",
+     "book": true,
+     "desc": null,
+     "from": false,
+     "slug": "womens-anti-dandruff-treatment",
+     "extra": null,
+     "sized": false,
+     "featured": false,
+     "bill_name": "Women's Anti-dandruff Treatment"
+    },
+    {
+     "n": "Head Massage, 30 min",
+     "p": [
+      499
+     ],
+     "dur": null,
+     "for": "women",
+     "inc": [],
+     "lbl": null,
+     "sub": null,
+     "uid": "588f5100-293e-4bae-a17e-58755d976bef",
+     "book": true,
+     "desc": null,
+     "from": false,
+     "slug": "womens-head-massage-30-min",
+     "extra": null,
+     "sized": false,
+     "featured": false,
+     "bill_name": "Women's Head Massage, 30 min"
+    }
+   ],
+   "title": "Women's Hair Spa",
+   "consult": false
+  },
+  {
+   "id": "hair-treatments",
+   "cat": "hair",
+   "tab": "Spa & Treatments",
+   "uid": "61d652d6-e153-42a0-95e3-b72f1d2e556d",
+   "desc": null,
+   "note": "Prices by hair length; thick hair ₹500 more. Final price after consultation.",
+   "type": "Spa & Treatment",
+   "image": null,
+   "items": [
+    {
+     "n": "Smoothening / Straightening",
+     "p": [
+      4499,
+      4999,
+      5499,
+      5999
+     ],
+     "dur": null,
+     "for": "any",
+     "inc": [],
+     "lbl": [
+      "S",
+      "M",
+      "L",
+      "XL"
+     ],
+     "sub": null,
+     "uid": "eb32e322-7a45-4b07-83cd-847cc1e36637",
+     "book": true,
+     "desc": null,
+     "from": false,
+     "slug": "smoothening-straightening",
+     "extra": {
+      "title": "Hair thickness",
+      "choices": [
+       {
+        "label": "Thick",
+        "price": 500
+       }
+      ]
+     },
+     "sized": true,
+     "featured": false,
+     "bill_name": "Smoothening / Straightening"
+    },
+    {
+     "n": "Men's Smoothening (Short Hair)",
+     "p": [
+      1999
+     ],
+     "dur": null,
+     "for": "men",
+     "inc": [],
+     "lbl": null,
+     "sub": null,
+     "uid": "d34c7d6f-4119-4b3d-84f7-61e2f246953f",
+     "book": true,
+     "desc": null,
+     "from": false,
+     "slug": "mens-smoothening-short-hair",
+     "extra": null,
+     "sized": false,
+     "featured": false,
+     "bill_name": "Men's Smoothening (Short Hair)"
+    },
+    {
+     "n": "Keratin",
+     "p": [
+      3999,
+      4499,
+      4999,
+      5499
+     ],
+     "dur": null,
+     "for": "any",
+     "inc": [],
+     "lbl": [
+      "S",
+      "M",
+      "L",
+      "XL"
+     ],
+     "sub": null,
+     "uid": "db436c2a-6573-4320-bd7e-bd90b62da569",
+     "book": true,
+     "desc": null,
+     "from": false,
+     "slug": "keratin",
+     "extra": {
+      "title": "Hair thickness",
+      "choices": [
+       {
+        "label": "Thick",
+        "price": 500
+       }
+      ]
+     },
+     "sized": true,
+     "featured": false,
+     "bill_name": "Keratin"
+    },
+    {
+     "n": "Kera Smoothening",
+     "p": [
+      5999,
+      6499,
+      6999,
+      7499
+     ],
+     "dur": null,
+     "for": "any",
+     "inc": [],
+     "lbl": [
+      "S",
+      "M",
+      "L",
+      "XL"
+     ],
+     "sub": null,
+     "uid": "c9c981c2-d0e5-4594-971b-e28304974f1f",
+     "book": true,
+     "desc": null,
+     "from": false,
+     "slug": "kera-smoothening",
+     "extra": {
+      "title": "Hair thickness",
+      "choices": [
+       {
+        "label": "Thick",
+        "price": 500
+       }
+      ]
+     },
+     "sized": true,
+     "featured": false,
+     "bill_name": "Kera Smoothening"
+    },
+    {
+     "n": "Hair Botox",
+     "p": [
+      4999,
+      5499,
+      5999,
+      6499
+     ],
+     "dur": null,
+     "for": "any",
+     "inc": [],
+     "lbl": [
+      "S",
+      "M",
+      "L",
+      "XL"
+     ],
+     "sub": null,
+     "uid": "d67a4fe5-54e1-4817-9833-58fc0c61c3ec",
+     "book": true,
+     "desc": null,
+     "from": false,
+     "slug": "hair-botox",
+     "extra": {
+      "title": "Hair thickness",
+      "choices": [
+       {
+        "label": "Thick",
+        "price": 500
+       }
+      ]
+     },
+     "sized": true,
+     "featured": false,
+     "bill_name": "Hair Botox"
+    },
+    {
+     "n": "Nanoplastia",
+     "p": [
+      5999,
+      6499,
+      6999,
+      7499
+     ],
+     "dur": null,
+     "for": "any",
+     "inc": [],
+     "lbl": [
+      "S",
+      "M",
+      "L",
+      "XL"
+     ],
+     "sub": null,
+     "uid": "35d5e7f3-15bd-49f3-9820-8a9a6e6322ae",
+     "book": true,
+     "desc": null,
+     "from": false,
+     "slug": "nanoplastia",
+     "extra": {
+      "title": "Hair thickness",
+      "choices": [
+       {
+        "label": "Thick",
+        "price": 500
+       }
+      ]
+     },
+     "sized": true,
+     "featured": false,
+     "bill_name": "Nanoplastia"
+    }
+   ],
+   "title": "Hair Treatments",
+   "consult": true
+  },
+  {
+   "id": "lotus-facials",
+   "cat": "beauty",
+   "tab": "Facials",
+   "uid": "db534c4a-3f98-41e3-8c1f-458a9f62283a",
+   "desc": null,
+   "note": null,
+   "type": "Skin & Facial",
+   "image": null,
+   "items": [
+    {
+     "n": "Clean-up",
+     "p": [
+      1299
+     ],
+     "dur": null,
+     "for": "any",
+     "inc": [],
+     "lbl": null,
+     "sub": null,
+     "uid": "d7ed029c-a08a-4c9e-8ada-e624483f8766",
+     "book": true,
+     "desc": null,
+     "from": false,
+     "slug": "lotus-clean-up",
+     "extra": null,
+     "sized": false,
+     "featured": false,
+     "bill_name": "Lotus Clean-up"
+    },
+    {
+     "n": "D-Tan Clean-up",
+     "p": [
+      1499
+     ],
+     "dur": null,
+     "for": "any",
+     "inc": [],
+     "lbl": null,
+     "sub": null,
+     "uid": "366f3704-8d59-41ad-a252-03cd1ab70635",
+     "book": true,
+     "desc": null,
+     "from": false,
+     "slug": "lotus-d-tan-clean-up",
+     "extra": null,
+     "sized": false,
+     "featured": false,
+     "bill_name": "Lotus D-Tan Clean-up"
+    },
+    {
+     "n": "Basic Facial (Oily Skin)",
+     "p": [
+      1799
+     ],
+     "dur": null,
+     "for": "any",
+     "inc": [],
+     "lbl": null,
+     "sub": null,
+     "uid": "577e778f-65cc-460b-a3aa-047cb72616b9",
+     "book": true,
+     "desc": null,
+     "from": false,
+     "slug": "lotus-basic-facial-oily-skin",
+     "extra": null,
+     "sized": false,
+     "featured": false,
+     "bill_name": "Lotus Basic Facial (Oily Skin)"
+    },
+    {
+     "n": "Hydravitals Facial (Dry Skin)",
+     "p": [
+      1799
+     ],
+     "dur": null,
+     "for": "any",
+     "inc": [],
+     "lbl": null,
+     "sub": null,
+     "uid": "10361219-4258-424f-b9ae-ec6e397a3433",
+     "book": true,
+     "desc": null,
+     "from": false,
+     "slug": "lotus-hydravitals-facial-dry-skin",
+     "extra": null,
+     "sized": false,
+     "featured": false,
+     "bill_name": "Lotus Hydravitals Facial (Dry Skin)"
+    },
+    {
+     "n": "Acne-X Facial",
+     "p": [
+      2499
+     ],
+     "dur": null,
+     "for": "any",
+     "inc": [],
+     "lbl": null,
+     "sub": null,
+     "uid": "71132b1e-910c-438b-863c-a9dd3e24fbf0",
+     "book": true,
+     "desc": null,
+     "from": false,
+     "slug": "lotus-acne-x-facial",
+     "extra": null,
+     "sized": false,
+     "featured": false,
+     "bill_name": "Lotus Acne-X Facial"
+    },
+    {
+     "n": "Preservita Sensitive Facial",
+     "p": [
+      2499
+     ],
+     "dur": null,
+     "for": "any",
+     "inc": [],
+     "lbl": null,
+     "sub": null,
+     "uid": "9f16f562-cdd5-4524-9c52-49c9402a3a34",
+     "book": true,
+     "desc": null,
+     "from": false,
+     "slug": "lotus-preservita-sensitive-facial",
+     "extra": null,
+     "sized": false,
+     "featured": false,
+     "bill_name": "Lotus Preservita Sensitive Facial"
+    },
+    {
+     "n": "Preservita Anti-ageing Facial",
+     "p": [
+      2499
+     ],
+     "dur": null,
+     "for": "any",
+     "inc": [],
+     "lbl": null,
+     "sub": null,
+     "uid": "7e43adc2-0a03-4a4b-bdc4-59eaa129075a",
+     "book": true,
+     "desc": null,
+     "from": false,
+     "slug": "lotus-preservita-anti-ageing-facial",
+     "extra": null,
+     "sized": false,
+     "featured": false,
+     "bill_name": "Lotus Preservita Anti-ageing Facial"
+    },
+    {
+     "n": "Insta Fair Facial",
+     "p": [
+      2799
+     ],
+     "dur": null,
+     "for": "any",
+     "inc": [],
+     "lbl": null,
+     "sub": null,
+     "uid": "da7ed3ed-e3e1-4dfc-aab7-11f9aaee06ea",
+     "book": true,
+     "desc": null,
+     "from": false,
+     "slug": "lotus-insta-fair-facial",
+     "extra": null,
+     "sized": false,
+     "featured": false,
+     "bill_name": "Lotus Insta Fair Facial"
+    },
+    {
+     "n": "Goldsheen Facial",
+     "p": [
+      2799
+     ],
+     "dur": null,
+     "for": "any",
+     "inc": [],
+     "lbl": null,
+     "sub": null,
+     "uid": "5ef4da16-d19a-4fdd-8b2f-8027fc446535",
+     "book": true,
+     "desc": null,
+     "from": false,
+     "slug": "lotus-goldsheen-facial",
+     "extra": null,
+     "sized": false,
+     "featured": false,
+     "bill_name": "Lotus Goldsheen Facial"
+    },
+    {
+     "n": "Bridal Glow Facial",
+     "p": [
+      2999
+     ],
+     "dur": null,
+     "for": "any",
+     "inc": [],
+     "lbl": null,
+     "sub": null,
+     "uid": "6f3f794c-cbd3-4f3d-b11e-7852ae5bd4e3",
+     "book": true,
+     "desc": null,
+     "from": false,
+     "slug": "lotus-bridal-glow-facial",
+     "extra": null,
+     "sized": false,
+     "featured": false,
+     "bill_name": "Lotus Bridal Glow Facial"
+    },
+    {
+     "n": "Ultimo Gold / Pearl Facial",
+     "p": [
+      3499
+     ],
+     "dur": null,
+     "for": "any",
+     "inc": [],
+     "lbl": null,
+     "sub": null,
+     "uid": "f13c00ef-901d-436a-a31b-7e173971fb99",
+     "book": true,
+     "desc": null,
+     "from": false,
+     "slug": "lotus-ultimo-gold-pearl-facial",
+     "extra": null,
+     "sized": false,
+     "featured": false,
+     "bill_name": "Lotus Ultimo Gold / Pearl Facial"
+    },
+    {
+     "n": "Miraki Facial",
+     "p": [
+      3999
+     ],
+     "dur": null,
+     "for": "any",
+     "inc": [],
+     "lbl": null,
+     "sub": null,
+     "uid": "8e34959e-8464-47b8-a55e-d645ed7a7b24",
+     "book": true,
+     "desc": null,
+     "from": false,
+     "slug": "lotus-miraki-facial",
+     "extra": null,
+     "sized": false,
+     "featured": false,
+     "bill_name": "Lotus Miraki Facial"
+    }
+   ],
+   "title": "Lotus Professional Facials",
+   "consult": false
+  },
+  {
+   "id": "o3-facials",
+   "cat": "beauty",
+   "tab": "Facials",
+   "uid": "d2be630c-2526-4413-b124-012422e7296e",
+   "desc": null,
+   "note": null,
+   "type": "Skin & Facial",
+   "image": null,
+   "items": [
+    {
+     "n": "Clean-up",
+     "p": [
+      1499
+     ],
+     "dur": null,
+     "for": "any",
+     "inc": [],
+     "lbl": null,
+     "sub": null,
+     "uid": "41b4a81f-afd5-4ce4-a4d4-e852855cb2a3",
+     "book": true,
+     "desc": null,
+     "from": false,
+     "slug": "o3-clean-up",
+     "extra": null,
+     "sized": false,
+     "featured": false,
+     "bill_name": "O3+ Clean-up"
+    },
+    {
+     "n": "D-Tan Facial",
+     "p": [
+      2499
+     ],
+     "dur": null,
+     "for": "any",
+     "inc": [],
+     "lbl": null,
+     "sub": null,
+     "uid": "777bbc01-4e3c-4d37-bac0-be2714dc52ab",
+     "book": true,
+     "desc": null,
+     "from": false,
+     "slug": "o3-d-tan-facial",
+     "extra": null,
+     "sized": false,
+     "featured": false,
+     "bill_name": "O3+ D-Tan Facial"
+    },
+    {
+     "n": "Whitening / Brightening Facial",
+     "p": [
+      3499
+     ],
+     "dur": null,
+     "for": "any",
+     "inc": [],
+     "lbl": null,
+     "sub": null,
+     "uid": "292d2834-a19c-47ff-b10f-414af04aa978",
+     "book": true,
+     "desc": null,
+     "from": false,
+     "slug": "o3-whitening-brightening-facial",
+     "extra": null,
+     "sized": false,
+     "featured": false,
+     "bill_name": "O3+ Whitening / Brightening Facial"
+    },
+    {
+     "n": "Seaweed Facial",
+     "p": [
+      3499
+     ],
+     "dur": null,
+     "for": "any",
+     "inc": [],
+     "lbl": null,
+     "sub": null,
+     "uid": "1cccf617-83be-4d14-9e1d-2085742cca85",
+     "book": true,
+     "desc": null,
+     "from": false,
+     "slug": "o3-seaweed-facial",
+     "extra": null,
+     "sized": false,
+     "featured": false,
+     "bill_name": "O3+ Seaweed Facial"
+    },
+    {
+     "n": "Men's Facial",
+     "p": [
+      3499
+     ],
+     "dur": null,
+     "for": "men",
+     "inc": [],
+     "lbl": null,
+     "sub": null,
+     "uid": "f08fce20-6a02-470d-a797-a6baeb618feb",
+     "book": true,
+     "desc": null,
+     "from": false,
+     "slug": "o3-mens-facial",
+     "extra": null,
+     "sized": false,
+     "featured": false,
+     "bill_name": "O3+ Men's Facial"
+    },
+    {
+     "n": "Anti-ageing Facial",
+     "p": [
+      3499
+     ],
+     "dur": null,
+     "for": "any",
+     "inc": [],
+     "lbl": null,
+     "sub": null,
+     "uid": "d9c46ff8-70b3-4151-bb61-947b279fada4",
+     "book": true,
+     "desc": null,
+     "from": false,
+     "slug": "o3-anti-ageing-facial",
+     "extra": null,
+     "sized": false,
+     "featured": false,
+     "bill_name": "O3+ Anti-ageing Facial"
+    },
+    {
+     "n": "Bridal Facial (Vitamin C Glow or Radiant Glow)",
+     "p": [
+      3499
+     ],
+     "dur": null,
+     "for": "women",
+     "inc": [],
+     "lbl": null,
+     "sub": null,
+     "uid": "ce0aea01-43f6-4ffc-93db-5d0de07ce9b7",
+     "book": true,
+     "desc": null,
+     "from": false,
+     "slug": "o3-bridal-facial-vitamin-c-glow-or-radiant-glow",
+     "extra": null,
+     "sized": false,
+     "featured": false,
+     "bill_name": "O3+ Bridal Facial (Vitamin C Glow or Radiant Glow)"
+    },
+    {
+     "n": "Gold Facial",
+     "p": [
+      4499
+     ],
+     "dur": null,
+     "for": "any",
+     "inc": [],
+     "lbl": null,
+     "sub": null,
+     "uid": "4a60bb29-7a4a-4848-ae2a-ce55efd2ffee",
+     "book": true,
+     "desc": null,
+     "from": false,
+     "slug": "o3-gold-facial",
+     "extra": null,
+     "sized": false,
+     "featured": false,
+     "bill_name": "O3+ Gold Facial"
+    },
+    {
+     "n": "Diamond Facial",
+     "p": [
+      4499
+     ],
+     "dur": null,
+     "for": "any",
+     "inc": [],
+     "lbl": null,
+     "sub": null,
+     "uid": "f735fd7b-4c17-47fb-affc-958c796f2ec0",
+     "book": true,
+     "desc": null,
+     "from": false,
+     "slug": "o3-diamond-facial",
+     "extra": null,
+     "sized": false,
+     "featured": false,
+     "bill_name": "O3+ Diamond Facial"
+    }
+   ],
+   "title": "O3+ Facials",
+   "consult": false
+  },
+  {
+   "id": "raaga-dtan",
+   "cat": "beauty",
+   "tab": "D-Tan & Bleach",
+   "uid": "76b4535e-68b7-4313-b345-853ae23f93e8",
+   "desc": null,
+   "note": null,
+   "type": "Skin & Facial",
+   "image": null,
+   "items": [
+    {
+     "n": "Face & Neck",
+     "p": [
+      499
+     ],
+     "dur": null,
+     "for": "any",
+     "inc": [],
+     "lbl": null,
+     "sub": null,
+     "uid": "7cdac4f8-35a5-4ed6-a25a-462dbd96b434",
+     "book": true,
+     "desc": null,
+     "from": false,
+     "slug": "raaga-d-tan-face-and-neck",
+     "extra": null,
+     "sized": false,
+     "featured": false,
+     "bill_name": "Raaga D-Tan Face & Neck"
+    },
+    {
+     "n": "Charcoal D-Tan",
+     "p": [
+      599
+     ],
+     "dur": null,
+     "for": "any",
+     "inc": [],
+     "lbl": null,
+     "sub": null,
+     "uid": "447a8af0-3bb9-4d9a-95ff-8460b606c709",
+     "book": true,
+     "desc": null,
+     "from": false,
+     "slug": "raaga-charcoal-d-tan",
+     "extra": null,
+     "sized": false,
+     "featured": false,
+     "bill_name": "Raaga Charcoal D-Tan"
+    },
+    {
+     "n": "Underarms",
+     "p": [
+      249
+     ],
+     "dur": null,
+     "for": "any",
+     "inc": [],
+     "lbl": null,
+     "sub": null,
+     "uid": "30dcf6e3-ae88-4a4a-9d03-bc4752a448b6",
+     "book": true,
+     "desc": null,
+     "from": false,
+     "slug": "raaga-d-tan-underarms",
+     "extra": null,
+     "sized": false,
+     "featured": false,
+     "bill_name": "Raaga D-Tan Underarms"
+    },
+    {
+     "n": "Half Arms",
+     "p": [
+      599
+     ],
+     "dur": null,
+     "for": "any",
+     "inc": [],
+     "lbl": null,
+     "sub": null,
+     "uid": "7982e4ee-c7c8-47a7-904a-9a2c19ba3dbf",
+     "book": true,
+     "desc": null,
+     "from": false,
+     "slug": "raaga-d-tan-half-arms",
+     "extra": null,
+     "sized": false,
+     "featured": false,
+     "bill_name": "Raaga D-Tan Half Arms"
+    },
+    {
+     "n": "Full Arms",
+     "p": [
+      799
+     ],
+     "dur": null,
+     "for": "any",
+     "inc": [],
+     "lbl": null,
+     "sub": null,
+     "uid": "38a2c1c6-06a9-4ba8-a985-e611057d7f31",
+     "book": true,
+     "desc": null,
+     "from": false,
+     "slug": "raaga-d-tan-full-arms",
+     "extra": null,
+     "sized": false,
+     "featured": false,
+     "bill_name": "Raaga D-Tan Full Arms"
+    },
+    {
+     "n": "Half Legs",
+     "p": [
+      999
+     ],
+     "dur": null,
+     "for": "any",
+     "inc": [],
+     "lbl": null,
+     "sub": null,
+     "uid": "1c6a96d1-762d-4541-9a10-e00d796262a6",
+     "book": true,
+     "desc": null,
+     "from": false,
+     "slug": "raaga-d-tan-half-legs",
+     "extra": null,
+     "sized": false,
+     "featured": false,
+     "bill_name": "Raaga D-Tan Half Legs"
+    },
+    {
+     "n": "Full Legs",
+     "p": [
+      1799
+     ],
+     "dur": null,
+     "for": "any",
+     "inc": [],
+     "lbl": null,
+     "sub": null,
+     "uid": "5f1dd57c-632a-4c16-8dfc-da46fae26bc0",
+     "book": true,
+     "desc": null,
+     "from": false,
+     "slug": "raaga-d-tan-full-legs",
+     "extra": null,
+     "sized": false,
+     "featured": false,
+     "bill_name": "Raaga D-Tan Full Legs"
+    },
+    {
+     "n": "Back",
+     "p": [
+      1499
+     ],
+     "dur": null,
+     "for": "any",
+     "inc": [],
+     "lbl": null,
+     "sub": null,
+     "uid": "4be5adc6-ed15-4bbb-981d-32ef47b82aed",
+     "book": true,
+     "desc": null,
+     "from": false,
+     "slug": "raaga-d-tan-back",
+     "extra": null,
+     "sized": false,
+     "featured": false,
+     "bill_name": "Raaga D-Tan Back"
+    },
+    {
+     "n": "Stomach",
+     "p": [
+      999
+     ],
+     "dur": null,
+     "for": "any",
+     "inc": [],
+     "lbl": null,
+     "sub": null,
+     "uid": "6ebbde12-dff8-49d6-81f6-dccef8c60ce2",
+     "book": true,
+     "desc": null,
+     "from": false,
+     "slug": "raaga-d-tan-stomach",
+     "extra": null,
+     "sized": false,
+     "featured": false,
+     "bill_name": "Raaga D-Tan Stomach"
+    },
+    {
+     "n": "Feet & Palms",
+     "p": [
+      499
+     ],
+     "dur": null,
+     "for": "any",
+     "inc": [],
+     "lbl": null,
+     "sub": null,
+     "uid": "dfaf228c-1bc8-476e-b1ec-3afb1beae0b8",
+     "book": true,
+     "desc": null,
+     "from": false,
+     "slug": "raaga-d-tan-feet-and-palms",
+     "extra": null,
+     "sized": false,
+     "featured": false,
+     "bill_name": "Raaga D-Tan Feet & Palms"
+    },
+    {
+     "n": "Full Body",
+     "p": [
+      2999
+     ],
+     "dur": null,
+     "for": "any",
+     "inc": [],
+     "lbl": null,
+     "sub": null,
+     "uid": "85bfc6d7-2109-4587-94b7-25a91f966037",
+     "book": true,
+     "desc": null,
+     "from": false,
+     "slug": "raaga-d-tan-full-body",
+     "extra": null,
+     "sized": false,
+     "featured": false,
+     "bill_name": "Raaga D-Tan Full Body"
+    }
+   ],
+   "title": "Raaga D-Tan",
+   "consult": false
+  },
+  {
+   "id": "o3-dtan",
+   "cat": "beauty",
+   "tab": "D-Tan & Bleach",
+   "uid": "5919f1a2-699c-4dfc-9392-5d2895e46521",
+   "desc": null,
+   "note": null,
+   "type": "Skin & Facial",
+   "image": null,
+   "items": [
+    {
+     "n": "Face & Neck",
+     "p": [
+      699
+     ],
+     "dur": null,
+     "for": "any",
+     "inc": [],
+     "lbl": null,
+     "sub": null,
+     "uid": "be887c38-51b0-4002-947a-c468a12c8b01",
+     "book": true,
+     "desc": null,
+     "from": false,
+     "slug": "o3-d-tan-face-and-neck",
+     "extra": null,
+     "sized": false,
+     "featured": false,
+     "bill_name": "O3+ D-Tan Face & Neck"
+    },
+    {
+     "n": "Charcoal D-Tan",
+     "p": [
+      799
+     ],
+     "dur": null,
+     "for": "any",
+     "inc": [],
+     "lbl": null,
+     "sub": null,
+     "uid": "10d220ac-e0af-4bc4-b77c-e071be2ebc5a",
+     "book": true,
+     "desc": null,
+     "from": false,
+     "slug": "o3-charcoal-d-tan",
+     "extra": null,
+     "sized": false,
+     "featured": false,
+     "bill_name": "O3+ Charcoal D-Tan"
+    },
+    {
+     "n": "Underarms",
+     "p": [
+      299
+     ],
+     "dur": null,
+     "for": "any",
+     "inc": [],
+     "lbl": null,
+     "sub": null,
+     "uid": "873447cc-4f02-4935-b3cf-c728e2610c9b",
+     "book": true,
+     "desc": null,
+     "from": false,
+     "slug": "o3-d-tan-underarms",
+     "extra": null,
+     "sized": false,
+     "featured": false,
+     "bill_name": "O3+ D-Tan Underarms"
+    },
+    {
+     "n": "Half Arms",
+     "p": [
+      799
+     ],
+     "dur": null,
+     "for": "any",
+     "inc": [],
+     "lbl": null,
+     "sub": null,
+     "uid": "9cbedc79-bb93-43e9-a7cc-031d3dc925fa",
+     "book": true,
+     "desc": null,
+     "from": false,
+     "slug": "o3-d-tan-half-arms",
+     "extra": null,
+     "sized": false,
+     "featured": false,
+     "bill_name": "O3+ D-Tan Half Arms"
+    },
+    {
+     "n": "Full Arms",
+     "p": [
+      999
+     ],
+     "dur": null,
+     "for": "any",
+     "inc": [],
+     "lbl": null,
+     "sub": null,
+     "uid": "9aa0e501-d771-4d4f-897d-2fc86dabaee5",
+     "book": true,
+     "desc": null,
+     "from": false,
+     "slug": "o3-d-tan-full-arms",
+     "extra": null,
+     "sized": false,
+     "featured": false,
+     "bill_name": "O3+ D-Tan Full Arms"
+    },
+    {
+     "n": "Half Legs",
+     "p": [
+      1199
+     ],
+     "dur": null,
+     "for": "any",
+     "inc": [],
+     "lbl": null,
+     "sub": null,
+     "uid": "390ec2ce-90c1-4e0b-a529-fc76256415d2",
+     "book": true,
+     "desc": null,
+     "from": false,
+     "slug": "o3-d-tan-half-legs",
+     "extra": null,
+     "sized": false,
+     "featured": false,
+     "bill_name": "O3+ D-Tan Half Legs"
+    },
+    {
+     "n": "Full Legs",
+     "p": [
+      1999
+     ],
+     "dur": null,
+     "for": "any",
+     "inc": [],
+     "lbl": null,
+     "sub": null,
+     "uid": "d79f5bef-efe9-45ee-a8bd-cb5cd7a66356",
+     "book": true,
+     "desc": null,
+     "from": false,
+     "slug": "o3-d-tan-full-legs",
+     "extra": null,
+     "sized": false,
+     "featured": false,
+     "bill_name": "O3+ D-Tan Full Legs"
+    },
+    {
+     "n": "Back",
+     "p": [
+      1699
+     ],
+     "dur": null,
+     "for": "any",
+     "inc": [],
+     "lbl": null,
+     "sub": null,
+     "uid": "efcbdf9f-ed63-44a5-a739-c6d3e4b2435c",
+     "book": true,
+     "desc": null,
+     "from": false,
+     "slug": "o3-d-tan-back",
+     "extra": null,
+     "sized": false,
+     "featured": false,
+     "bill_name": "O3+ D-Tan Back"
+    },
+    {
+     "n": "Stomach",
+     "p": [
+      1199
+     ],
+     "dur": null,
+     "for": "any",
+     "inc": [],
+     "lbl": null,
+     "sub": null,
+     "uid": "77150bf0-9630-49a2-ac13-8fec6a76cd85",
+     "book": true,
+     "desc": null,
+     "from": false,
+     "slug": "o3-d-tan-stomach",
+     "extra": null,
+     "sized": false,
+     "featured": false,
+     "bill_name": "O3+ D-Tan Stomach"
+    },
+    {
+     "n": "Feet & Palms",
+     "p": [
+      699
+     ],
+     "dur": null,
+     "for": "any",
+     "inc": [],
+     "lbl": null,
+     "sub": null,
+     "uid": "cf7881b5-d9de-4b4a-aa9e-6ef919fa9a9f",
+     "book": true,
+     "desc": null,
+     "from": false,
+     "slug": "o3-d-tan-feet-and-palms",
+     "extra": null,
+     "sized": false,
+     "featured": false,
+     "bill_name": "O3+ D-Tan Feet & Palms"
+    },
+    {
+     "n": "Full Body",
+     "p": [
+      3499
+     ],
+     "dur": null,
+     "for": "any",
+     "inc": [],
+     "lbl": null,
+     "sub": null,
+     "uid": "8df5c940-a073-4fd6-88d6-b647858eeba9",
+     "book": true,
+     "desc": null,
+     "from": false,
+     "slug": "o3-d-tan-full-body",
+     "extra": null,
+     "sized": false,
+     "featured": false,
+     "bill_name": "O3+ D-Tan Full Body"
+    }
+   ],
+   "title": "O3+ D-Tan",
+   "consult": false
+  },
+  {
+   "id": "threading",
+   "cat": "beauty",
+   "tab": "Threading",
+   "uid": "2b6b3e6c-104f-4d72-a39c-57b262bfb9dc",
+   "desc": null,
+   "note": null,
+   "type": "Hair Removal",
+   "image": null,
+   "items": [
+    {
+     "n": "Eyebrows",
+     "p": [
+      50
+     ],
+     "dur": null,
+     "for": "any",
+     "inc": [],
+     "lbl": null,
+     "sub": null,
+     "uid": "b6ae2545-f554-47ca-a880-0df2e8377e4a",
+     "book": true,
+     "desc": null,
+     "from": false,
+     "slug": "threading-eyebrows",
+     "extra": null,
+     "sized": false,
+     "featured": false,
+     "bill_name": "Threading Eyebrows"
+    },
+    {
+     "n": "Forehead",
+     "p": [
+      50
+     ],
+     "dur": null,
+     "for": "any",
+     "inc": [],
+     "lbl": null,
+     "sub": null,
+     "uid": "17cc0c7b-8ffa-4b9c-b3d0-9776e2a89191",
+     "book": true,
+     "desc": null,
+     "from": false,
+     "slug": "threading-forehead",
+     "extra": null,
+     "sized": false,
+     "featured": false,
+     "bill_name": "Threading Forehead"
+    },
+    {
+     "n": "Upper Lip",
+     "p": [
+      50
+     ],
+     "dur": null,
+     "for": "any",
+     "inc": [],
+     "lbl": null,
+     "sub": null,
+     "uid": "c110f41d-b4de-4de4-9c1e-e82395503ea9",
+     "book": true,
+     "desc": null,
+     "from": false,
+     "slug": "threading-upper-lip",
+     "extra": null,
+     "sized": false,
+     "featured": false,
+     "bill_name": "Threading Upper Lip"
+    },
+    {
+     "n": "Chin",
+     "p": [
+      50
+     ],
+     "dur": null,
+     "for": "any",
+     "inc": [],
+     "lbl": null,
+     "sub": null,
+     "uid": "5adb15cf-a6ac-41a9-8e6d-b05b205d0796",
+     "book": true,
+     "desc": null,
+     "from": false,
+     "slug": "threading-chin",
+     "extra": null,
+     "sized": false,
+     "featured": false,
+     "bill_name": "Threading Chin"
+    },
+    {
+     "n": "Side Locks",
+     "p": [
+      50
+     ],
+     "dur": null,
+     "for": "any",
+     "inc": [],
+     "lbl": null,
+     "sub": null,
+     "uid": "f4c5dd48-6756-4f1a-964c-576b236583fc",
+     "book": true,
+     "desc": null,
+     "from": false,
+     "slug": "threading-side-locks",
+     "extra": null,
+     "sized": false,
+     "featured": false,
+     "bill_name": "Threading Side Locks"
+    },
+    {
+     "n": "Men's Threading",
+     "p": [
+      50
+     ],
+     "dur": null,
+     "for": "men",
+     "inc": [],
+     "lbl": null,
+     "sub": null,
+     "uid": "81eef3ab-19d2-47ac-aede-6748afd79e5e",
+     "book": true,
+     "desc": null,
+     "from": false,
+     "slug": "mens-threading",
+     "extra": null,
+     "sized": false,
+     "featured": false,
+     "bill_name": "Men's Threading"
+    },
+    {
+     "n": "Full Face",
+     "p": [
+      399
+     ],
+     "dur": null,
+     "for": "any",
+     "inc": [],
+     "lbl": null,
+     "sub": null,
+     "uid": "8b520e96-8e0f-4cb5-a8cd-315221cf4e8a",
+     "book": true,
+     "desc": null,
+     "from": false,
+     "slug": "threading-full-face",
+     "extra": null,
+     "sized": false,
+     "featured": false,
+     "bill_name": "Threading Full Face"
+    }
+   ],
+   "title": "Threading",
+   "consult": false
+  },
+  {
+   "id": "rica",
+   "cat": "beauty",
+   "tab": "Waxing",
+   "uid": "7f90117d-9e91-4786-8a1a-c1ec16825b99",
+   "desc": null,
+   "note": null,
+   "type": "Hair Removal",
+   "image": null,
+   "items": [
+    {
+     "n": "Half Arms",
+     "p": [
+      600
+     ],
+     "dur": null,
+     "for": "any",
+     "inc": [],
+     "lbl": null,
+     "sub": null,
+     "uid": "baf872e6-1013-4494-85c5-39f1aa735fe5",
+     "book": true,
+     "desc": null,
+     "from": false,
+     "slug": "rica-half-arms",
+     "extra": null,
+     "sized": false,
+     "featured": false,
+     "bill_name": "Rica Half Arms"
+    },
+    {
+     "n": "Full Arms",
+     "p": [
+      800
+     ],
+     "dur": null,
+     "for": "any",
+     "inc": [],
+     "lbl": null,
+     "sub": null,
+     "uid": "2336f5d6-7963-4320-9020-795381e44f91",
+     "book": true,
+     "desc": null,
+     "from": false,
+     "slug": "rica-full-arms",
+     "extra": null,
+     "sized": false,
+     "featured": false,
+     "bill_name": "Rica Full Arms"
+    },
+    {
+     "n": "Half Legs",
+     "p": [
+      800
+     ],
+     "dur": null,
+     "for": "any",
+     "inc": [],
+     "lbl": null,
+     "sub": null,
+     "uid": "d5b6cd17-1d78-422b-ac22-e9f14ac838b9",
+     "book": true,
+     "desc": null,
+     "from": false,
+     "slug": "rica-half-legs",
+     "extra": null,
+     "sized": false,
+     "featured": false,
+     "bill_name": "Rica Half Legs"
+    },
+    {
+     "n": "Full Legs",
+     "p": [
+      1100
+     ],
+     "dur": null,
+     "for": "any",
+     "inc": [],
+     "lbl": null,
+     "sub": null,
+     "uid": "42a92f08-8874-4c20-8e63-0840e15f8269",
+     "book": true,
+     "desc": null,
+     "from": false,
+     "slug": "rica-full-legs",
+     "extra": null,
+     "sized": false,
+     "featured": false,
+     "bill_name": "Rica Full Legs"
+    },
+    {
+     "n": "Midriff",
+     "p": [
+      800
+     ],
+     "dur": null,
+     "for": "any",
+     "inc": [],
+     "lbl": null,
+     "sub": null,
+     "uid": "24df6f5f-00f6-44a6-91e1-4686db59b41f",
+     "book": true,
+     "desc": null,
+     "from": false,
+     "slug": "rica-midriff",
+     "extra": null,
+     "sized": false,
+     "featured": false,
+     "bill_name": "Rica Midriff"
+    },
+    {
+     "n": "Half Back",
+     "p": [
+      900
+     ],
+     "dur": null,
+     "for": "any",
+     "inc": [],
+     "lbl": null,
+     "sub": null,
+     "uid": "ca7b7da0-3080-4e18-86d1-6984308cb0f4",
+     "book": true,
+     "desc": null,
+     "from": false,
+     "slug": "rica-half-back",
+     "extra": null,
+     "sized": false,
+     "featured": false,
+     "bill_name": "Rica Half Back"
+    },
+    {
+     "n": "Full Back",
+     "p": [
+      1200
+     ],
+     "dur": null,
+     "for": "any",
+     "inc": [],
+     "lbl": null,
+     "sub": null,
+     "uid": "7cea78e4-efb5-471d-ad42-5533418f122b",
+     "book": true,
+     "desc": null,
+     "from": false,
+     "slug": "rica-full-back",
+     "extra": null,
+     "sized": false,
+     "featured": false,
+     "bill_name": "Rica Full Back"
+    },
+    {
+     "n": "Buttock",
+     "p": [
+      900
+     ],
+     "dur": null,
+     "for": "any",
+     "inc": [],
+     "lbl": null,
+     "sub": null,
+     "uid": "c7dca70e-14c1-4d8d-a612-ebd71ad9cf3f",
+     "book": true,
+     "desc": null,
+     "from": false,
+     "slug": "rica-buttock",
+     "extra": null,
+     "sized": false,
+     "featured": false,
+     "bill_name": "Rica Buttock"
+    },
+    {
+     "n": "Full Body",
+     "p": [
+      4000
+     ],
+     "dur": null,
+     "for": "any",
+     "inc": [],
+     "lbl": null,
+     "sub": null,
+     "uid": "b40318aa-ac21-4375-ad8e-eb780fb882fa",
+     "book": true,
+     "desc": null,
+     "from": false,
+     "slug": "rica-full-body",
+     "extra": null,
+     "sized": false,
+     "featured": false,
+     "bill_name": "Rica Full Body"
+    }
+   ],
+   "title": "Rica Wax",
+   "consult": false
+  },
+  {
+   "id": "mens-rica",
+   "cat": "beauty",
+   "tab": "Waxing",
+   "uid": "ac84b5ed-c0e7-4c79-96b8-a86c43391897",
+   "desc": null,
+   "note": null,
+   "type": "Hair Removal",
+   "image": null,
+   "items": [
+    {
+     "n": "Full Arms",
+     "p": [
+      999
+     ],
+     "dur": null,
+     "for": "men",
+     "inc": [],
+     "lbl": null,
+     "sub": null,
+     "uid": "dbaea854-02e1-4da4-b72c-86b1dc697f59",
+     "book": true,
+     "desc": null,
+     "from": false,
+     "slug": "mens-rica-full-arms",
+     "extra": null,
+     "sized": false,
+     "featured": false,
+     "bill_name": "Men's Rica Full Arms"
+    },
+    {
+     "n": "Chest",
+     "p": [
+      1199
+     ],
+     "dur": null,
+     "for": "men",
+     "inc": [],
+     "lbl": null,
+     "sub": null,
+     "uid": "7c6cadc0-d449-4210-803e-f555e2f8e7ca",
+     "book": true,
+     "desc": null,
+     "from": false,
+     "slug": "mens-rica-chest",
+     "extra": null,
+     "sized": false,
+     "featured": false,
+     "bill_name": "Men's Rica Chest"
+    },
+    {
+     "n": "Full Back",
+     "p": [
+      1499
+     ],
+     "dur": null,
+     "for": "men",
+     "inc": [],
+     "lbl": null,
+     "sub": null,
+     "uid": "2ea27405-3582-459c-83c5-a3fedf2c8fa1",
+     "book": true,
+     "desc": null,
+     "from": false,
+     "slug": "mens-rica-full-back",
+     "extra": null,
+     "sized": false,
+     "featured": false,
+     "bill_name": "Men's Rica Full Back"
+    }
+   ],
+   "title": "Men's Rica Wax",
+   "consult": false
+  },
+  {
+   "id": "peel-off-wax",
+   "cat": "beauty",
+   "tab": "Waxing",
+   "uid": "d5a92a9a-d6d5-46b0-be2e-fb30b42187e8",
+   "desc": null,
+   "note": null,
+   "type": "Hair Removal",
+   "image": null,
+   "items": [
+    {
+     "n": "Nose",
+     "p": [
+      100
+     ],
+     "dur": null,
+     "for": "any",
+     "inc": [],
+     "lbl": null,
+     "sub": null,
+     "uid": "06d3030c-c2dc-487b-a370-cd97354cf40a",
+     "book": true,
+     "desc": null,
+     "from": false,
+     "slug": "peel-off-wax-nose",
+     "extra": null,
+     "sized": false,
+     "featured": false,
+     "bill_name": "Peel-off Wax Nose"
+    },
+    {
+     "n": "Chin",
+     "p": [
+      120
+     ],
+     "dur": null,
+     "for": "any",
+     "inc": [],
+     "lbl": null,
+     "sub": null,
+     "uid": "60901e8f-aa7e-46dd-b827-1cef232376a8",
+     "book": true,
+     "desc": null,
+     "from": false,
+     "slug": "peel-off-wax-chin",
+     "extra": null,
+     "sized": false,
+     "featured": false,
+     "bill_name": "Peel-off Wax Chin"
+    },
+    {
+     "n": "Forehead",
+     "p": [
+      120
+     ],
+     "dur": null,
+     "for": "any",
+     "inc": [],
+     "lbl": null,
+     "sub": null,
+     "uid": "60c3dfd6-3752-4963-a637-7950716d240c",
+     "book": true,
+     "desc": null,
+     "from": false,
+     "slug": "peel-off-wax-forehead",
+     "extra": null,
+     "sized": false,
+     "featured": false,
+     "bill_name": "Peel-off Wax Forehead"
+    },
+    {
+     "n": "Upper & Lower Lip",
+     "p": [
+      150
+     ],
+     "dur": null,
+     "for": "any",
+     "inc": [],
+     "lbl": null,
+     "sub": null,
+     "uid": "ed45f393-974d-4786-9959-1d707de53243",
+     "book": true,
+     "desc": null,
+     "from": false,
+     "slug": "peel-off-wax-upper-and-lower-lip",
+     "extra": null,
+     "sized": false,
+     "featured": false,
+     "bill_name": "Peel-off Wax Upper & Lower Lip"
+    },
+    {
+     "n": "Side Locks",
+     "p": [
+      150
+     ],
+     "dur": null,
+     "for": "any",
+     "inc": [],
+     "lbl": null,
+     "sub": null,
+     "uid": "f14f83ab-5701-45b1-bd27-34037b9a9264",
+     "book": true,
+     "desc": null,
+     "from": false,
+     "slug": "peel-off-wax-side-locks",
+     "extra": null,
+     "sized": false,
+     "featured": false,
+     "bill_name": "Peel-off Wax Side Locks"
+    },
+    {
+     "n": "Underarms",
+     "p": [
+      300
+     ],
+     "dur": null,
+     "for": "any",
+     "inc": [],
+     "lbl": null,
+     "sub": null,
+     "uid": "e2b6b48b-ae54-427f-a563-ca39391eaa34",
+     "book": true,
+     "desc": null,
+     "from": false,
+     "slug": "peel-off-wax-underarms",
+     "extra": null,
+     "sized": false,
+     "featured": false,
+     "bill_name": "Peel-off Wax Underarms"
+    },
+    {
+     "n": "Full Face",
+     "p": [
+      550
+     ],
+     "dur": null,
+     "for": "any",
+     "inc": [],
+     "lbl": null,
+     "sub": null,
+     "uid": "51661618-5bb3-4c30-bc33-fd05fc894dd2",
+     "book": true,
+     "desc": null,
+     "from": false,
+     "slug": "peel-off-wax-full-face",
+     "extra": null,
+     "sized": false,
+     "featured": false,
+     "bill_name": "Peel-off Wax Full Face"
+    }
+   ],
+   "title": "Peel-off Wax (Face & Underarms)",
+   "consult": false
+  },
+  {
+   "id": "manicure-and-pedicure",
+   "cat": "nails",
+   "tab": "Mani / Pedi",
+   "uid": "87237c47-12af-4488-b906-d32ccef10438",
+   "desc": null,
+   "note": null,
+   "type": "Nails",
+   "image": null,
+   "items": [
+    {
+     "n": "Regular Manicure",
+     "p": [
+      699
+     ],
+     "dur": null,
+     "for": "any",
+     "inc": [],
+     "lbl": null,
+     "sub": null,
+     "uid": "bddb7d14-af6a-4d92-9b26-eba8258337e0",
+     "book": true,
+     "desc": null,
+     "from": false,
+     "slug": "regular-manicure",
+     "extra": null,
+     "sized": false,
+     "featured": false,
+     "bill_name": "Regular Manicure"
+    },
+    {
+     "n": "Regular Pedicure",
+     "p": [
+      799
+     ],
+     "dur": null,
+     "for": "any",
+     "inc": [],
+     "lbl": null,
+     "sub": null,
+     "uid": "8be00f0c-54e0-4a6e-9e23-5d319434f9c1",
+     "book": true,
+     "desc": null,
+     "from": false,
+     "slug": "regular-pedicure",
+     "extra": null,
+     "sized": false,
+     "featured": false,
+     "bill_name": "Regular Pedicure"
+    },
+    {
+     "n": "Spa Manicure",
+     "p": [
+      800
+     ],
+     "dur": null,
+     "for": "any",
+     "inc": [],
+     "lbl": null,
+     "sub": null,
+     "uid": "c18ca980-7e41-4257-8ea0-ea4ec572a28d",
+     "book": true,
+     "desc": null,
+     "from": false,
+     "slug": "spa-manicure",
+     "extra": null,
+     "sized": false,
+     "featured": false,
+     "bill_name": "Spa Manicure"
+    },
+    {
+     "n": "Spa Pedicure",
+     "p": [
+      900
+     ],
+     "dur": null,
+     "for": "any",
+     "inc": [],
+     "lbl": null,
+     "sub": null,
+     "uid": "4e89fb9b-b074-49e6-8618-9a90baba5eeb",
+     "book": true,
+     "desc": null,
+     "from": false,
+     "slug": "spa-pedicure",
+     "extra": null,
+     "sized": false,
+     "featured": false,
+     "bill_name": "Spa Pedicure"
+    },
+    {
+     "n": "Paraffin Manicure",
+     "p": [
+      900
+     ],
+     "dur": null,
+     "for": "any",
+     "inc": [],
+     "lbl": null,
+     "sub": null,
+     "uid": "70d60555-98b9-4761-8f2c-9631325442e2",
+     "book": true,
+     "desc": null,
+     "from": false,
+     "slug": "paraffin-manicure",
+     "extra": null,
+     "sized": false,
+     "featured": false,
+     "bill_name": "Paraffin Manicure"
+    },
+    {
+     "n": "Paraffin Pedicure",
+     "p": [
+      1000
+     ],
+     "dur": null,
+     "for": "any",
+     "inc": [],
+     "lbl": null,
+     "sub": null,
+     "uid": "a098525f-e9ff-46ab-aec8-9486430b4baa",
+     "book": true,
+     "desc": null,
+     "from": false,
+     "slug": "paraffin-pedicure",
+     "extra": null,
+     "sized": false,
+     "featured": false,
+     "bill_name": "Paraffin Pedicure"
+    },
+    {
+     "n": "Crystal Manicure",
+     "p": [
+      1000
+     ],
+     "dur": null,
+     "for": "any",
+     "inc": [],
+     "lbl": null,
+     "sub": null,
+     "uid": "21429a8f-6ea3-424e-bb09-bc52c7293b48",
+     "book": true,
+     "desc": null,
+     "from": false,
+     "slug": "crystal-manicure",
+     "extra": null,
+     "sized": false,
+     "featured": false,
+     "bill_name": "Crystal Manicure"
+    },
+    {
+     "n": "Crystal Pedicure",
+     "p": [
+      1100
+     ],
+     "dur": null,
+     "for": "any",
+     "inc": [],
+     "lbl": null,
+     "sub": null,
+     "uid": "336b0df8-b404-4278-9198-fca0b00a9b07",
+     "book": true,
+     "desc": null,
+     "from": false,
+     "slug": "crystal-pedicure",
+     "extra": null,
+     "sized": false,
+     "featured": false,
+     "bill_name": "Crystal Pedicure"
+    },
+    {
+     "n": "Nail Cut & File",
+     "p": [
+      100
+     ],
+     "dur": null,
+     "for": "any",
+     "inc": [],
+     "lbl": null,
+     "sub": null,
+     "uid": "7f74d3f6-4df6-4f77-8b74-40d5b7d49d52",
+     "book": true,
+     "desc": null,
+     "from": false,
+     "slug": "nail-cut-and-file",
+     "extra": null,
+     "sized": false,
+     "featured": false,
+     "bill_name": "Nail Cut & File"
+    },
+    {
+     "n": "Change of Nail Polish",
+     "p": [
+      120
+     ],
+     "dur": null,
+     "for": "any",
+     "inc": [],
+     "lbl": null,
+     "sub": null,
+     "uid": "cf9cb93b-9459-4e89-8bb6-ba9e2c6e2957",
+     "book": true,
+     "desc": null,
+     "from": false,
+     "slug": "change-of-nail-polish",
+     "extra": null,
+     "sized": false,
+     "featured": false,
+     "bill_name": "Change of Nail Polish"
+    }
+   ],
+   "title": "Manicure & Pedicure",
+   "consult": false
+  },
+  {
+   "id": "makeup",
+   "cat": "makeup",
+   "tab": null,
+   "uid": "715ed0f4-acf7-4d80-bc91-2beb6e8bb5ff",
+   "desc": null,
+   "note": null,
+   "type": "Makeup & Styling",
+   "image": null,
+   "items": [
+    {
+     "n": "Simple Make-up",
+     "p": [
+      1000
+     ],
+     "dur": null,
+     "for": "any",
+     "inc": [],
+     "lbl": null,
+     "sub": null,
+     "uid": "7e23d2de-5137-4dc2-9004-71dfe920f376",
+     "book": true,
+     "desc": null,
+     "from": true,
+     "slug": "simple-make-up",
+     "extra": null,
+     "sized": false,
+     "featured": false,
+     "bill_name": "Simple Make-up"
+    },
+    {
+     "n": "Party Make-up",
+     "p": [
+      1500
+     ],
+     "dur": null,
+     "for": "any",
+     "inc": [],
+     "lbl": null,
+     "sub": null,
+     "uid": "d65063d3-ba13-4b90-9522-876bf0a0fb15",
+     "book": true,
+     "desc": null,
+     "from": true,
+     "slug": "party-make-up",
+     "extra": null,
+     "sized": false,
+     "featured": false,
+     "bill_name": "Party Make-up"
+    },
+    {
+     "n": "Saree Draping",
+     "p": [
+      500
+     ],
+     "dur": null,
+     "for": "any",
+     "inc": [],
+     "lbl": null,
+     "sub": null,
+     "uid": "109ba7bf-1094-41d0-b36a-66cddd9c7e85",
+     "book": true,
+     "desc": null,
+     "from": false,
+     "slug": "saree-draping",
+     "extra": null,
+     "sized": false,
+     "featured": false,
+     "bill_name": "Saree Draping"
+    },
+    {
+     "n": "Bridal Makeup",
+     "p": [
+      10000
+     ],
+     "dur": null,
+     "for": "any",
+     "inc": [],
+     "lbl": null,
+     "sub": null,
+     "uid": "769746e5-817f-48aa-a337-56309c8233bf",
+     "book": true,
+     "desc": null,
+     "from": true,
+     "slug": "bridal-makeup",
+     "extra": null,
+     "sized": false,
+     "featured": false,
+     "bill_name": "Bridal Makeup"
+    },
+    {
+     "n": "Reception Makeup",
+     "p": [
+      10000
+     ],
+     "dur": null,
+     "for": "any",
+     "inc": [],
+     "lbl": null,
+     "sub": null,
+     "uid": "cf966eb7-b843-451f-8cb1-c96444338006",
+     "book": true,
+     "desc": null,
+     "from": true,
+     "slug": "reception-makeup",
+     "extra": null,
+     "sized": false,
+     "featured": false,
+     "bill_name": "Reception Makeup"
+    }
+   ],
+   "title": "Makeup",
+   "consult": false
+  },
+  {
+   "id": "bridal-package",
+   "cat": "bridal",
+   "tab": null,
+   "uid": "541e2f00-d661-4d23-ae3c-32bd9b605d9f",
+   "desc": null,
+   "note": null,
+   "type": "Package",
+   "image": null,
+   "items": [
+    {
+     "n": "Bride Package A + B",
+     "p": [
+      20000
+     ],
+     "dur": null,
+     "for": "any",
+     "inc": [],
+     "lbl": null,
+     "sub": null,
+     "uid": "c44645ba-0252-4272-870c-2547a7a6b965",
+     "book": true,
+     "desc": null,
+     "from": true,
+     "slug": "bride-package-a-b",
+     "extra": null,
+     "sized": false,
+     "featured": false,
+     "bill_name": "Bride Package A + B"
+    },
+    {
+     "n": "Pre-Bridal Package (5 days prior)",
+     "p": [
+      10000
+     ],
+     "dur": null,
+     "for": "any",
+     "inc": [],
+     "lbl": null,
+     "sub": null,
+     "uid": "dd2457aa-7fff-458d-82e1-be3f7eee2400",
+     "book": true,
+     "desc": null,
+     "from": true,
+     "slug": "pre-bridal-package-5-days-prior",
+     "extra": null,
+     "sized": false,
+     "featured": false,
+     "bill_name": "Pre-Bridal Package (5 days prior)"
+    },
+    {
+     "n": "Wedding Day Package (Bride)",
+     "p": [
+      10000
+     ],
+     "dur": null,
+     "for": "any",
+     "inc": [],
+     "lbl": null,
+     "sub": null,
+     "uid": "62d18265-f695-4676-896a-e92389c94b44",
+     "book": true,
+     "desc": null,
+     "from": true,
+     "slug": "wedding-day-package-bride",
+     "extra": null,
+     "sized": false,
+     "featured": false,
+     "bill_name": "Wedding Day Package (Bride)"
+    },
+    {
+     "n": "Reception Package (Contemporary)",
+     "p": [
+      6000
+     ],
+     "dur": null,
+     "for": "any",
+     "inc": [],
+     "lbl": null,
+     "sub": null,
+     "uid": "3dea6d2f-fe91-4a75-80f7-6628c35cfabf",
+     "book": true,
+     "desc": null,
+     "from": true,
+     "slug": "reception-package-contemporary",
+     "extra": null,
+     "sized": false,
+     "featured": false,
+     "bill_name": "Reception Package (Contemporary)"
+    },
+    {
+     "n": "Wedding Premium (Friends & Relatives)",
+     "p": [
+      3000
+     ],
+     "dur": null,
+     "for": "any",
+     "inc": [],
+     "lbl": null,
+     "sub": null,
+     "uid": "be67a435-a0ef-48bf-828b-cbf5575bdc9f",
+     "book": true,
+     "desc": null,
+     "from": true,
+     "slug": "wedding-premium-friends-and-relatives",
+     "extra": null,
+     "sized": false,
+     "featured": false,
+     "bill_name": "Wedding Premium (Friends & Relatives)"
+    }
+   ],
+   "title": "Bridal Packages",
+   "consult": true
+  },
+  {
+   "id": "groom-package",
+   "cat": "groom",
+   "tab": null,
+   "uid": "4770b346-20db-41f9-ac2f-66990e5f376c",
+   "desc": null,
+   "note": null,
+   "type": "Package",
+   "image": null,
+   "items": [
+    {
+     "n": "Groom Pre-Wedding Package",
+     "p": [
+      7000
+     ],
+     "dur": null,
+     "for": "any",
+     "inc": [],
+     "lbl": null,
+     "sub": null,
+     "uid": "9b96c120-7875-4155-a2b9-216ba3360b16",
+     "book": true,
+     "desc": null,
+     "from": false,
+     "slug": "groom-pre-wedding-package",
+     "extra": null,
+     "sized": false,
+     "featured": false,
+     "bill_name": "Groom Pre-Wedding Package"
+    },
+    {
+     "n": "Advance Groom Package",
+     "p": [
+      10000
+     ],
+     "dur": null,
+     "for": "any",
+     "inc": [],
+     "lbl": null,
+     "sub": null,
+     "uid": "0d45f68e-3abf-479f-b457-3a1a95f28e67",
+     "book": true,
+     "desc": null,
+     "from": true,
+     "slug": "advance-groom-package",
+     "extra": null,
+     "sized": false,
+     "featured": false,
+     "bill_name": "Advance Groom Package"
+    },
+    {
+     "n": "Wedding Day Groom Make-up",
+     "p": [
+      4000
+     ],
+     "dur": null,
+     "for": "any",
+     "inc": [],
+     "lbl": null,
+     "sub": null,
+     "uid": "009efdbf-6c2a-40a9-b81f-5198fa03f70f",
+     "book": true,
+     "desc": null,
+     "from": false,
+     "slug": "wedding-day-groom-make-up",
+     "extra": null,
+     "sized": false,
+     "featured": false,
+     "bill_name": "Wedding Day Groom Make-up"
+    }
+   ],
+   "title": "Groom Packages",
+   "consult": false
+  }
+ ],
+ "salon": {
+  "phone": "+91 89275 63835",
+  "branch": "Fuljhore, Durgapur",
+  "address": "Girija Niketan, 1st Floor, B-1 More, Durgapur, West Bengal",
+  "maps_url": "",
+  "whatsapp": "",
+  "instagram": "@habibsfuljhore",
+  "salon_name": "Habibs Hair & Beauty",
+  "opening_hours": "10:00 AM – 9:00 PM, all 7 days",
+  "prices_include_gst": true
+ },
+ "offers": [],
+ "version": "20261112T085617"
+}

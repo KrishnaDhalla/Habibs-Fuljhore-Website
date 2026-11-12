@@ -1,0 +1,214 @@
+/* ==========================================================================
+   Header, menu, footer, floating actions
+   ========================================================================== */
+
+.site-header {
+  position: sticky; top: 0; z-index: 40;
+  background: rgba(250, 248, 246, .95);
+  -webkit-backdrop-filter: blur(10px); backdrop-filter: blur(10px);
+  border-bottom: 1px solid var(--line-soft);
+  transition: box-shadow .35s ease;
+}
+.site-header.is-scrolled { box-shadow: 0 10px 30px rgba(43, 43, 43, .08); }
+
+.topbar { background: var(--ink); color: #EFE6E3; font-size: 12px; letter-spacing: .08em; font-weight: 500; }
+.topbar__inner {
+  height: 38px; display: flex; align-items: center; justify-content: space-between; gap: 16px;
+  overflow-x: auto; scrollbar-width: none; white-space: nowrap;
+}
+.topbar__inner::-webkit-scrollbar { display: none; }
+.topbar__hours { flex: none; display: flex; align-items: center; gap: 8px; }
+.topbar__links { display: flex; align-items: center; gap: clamp(14px, 2vw, 26px); flex: none; }
+.topbar__links a { color: #fff; display: flex; align-items: center; gap: 7px; }
+.topbar__links a:hover { color: #F0DADA; }
+.topbar .stars { color: #D6B67C; }
+
+.header__main { height: 76px; display: flex; align-items: center; justify-content: space-between; gap: 24px; }
+
+.brand { display: flex; align-items: center; gap: 14px; line-height: 1; color: var(--ink); flex: none; white-space: nowrap; }
+.brand:hover { color: var(--ink); }
+.brand__logo { height: 50px; width: auto; }
+.brand__rule { width: 1px; height: 34px; background: var(--line-input); display: block; }
+.brand__place { display: flex; flex-direction: column; gap: 5px; font-size: 10px; letter-spacing: .32em; font-weight: 500; }
+.brand__place span + span { color: var(--muted-2); }
+
+.header__nav { display: flex; align-items: center; gap: clamp(14px, 1.6vw, 26px); }
+.header__link {
+  font-size: 12.5px; letter-spacing: .1em; text-transform: uppercase; font-weight: 500; color: var(--ink);
+  padding: 6px 0; border-bottom: 1.5px solid transparent; white-space: nowrap;
+}
+.header__link.is-active { border-bottom-color: var(--rose); }
+
+.header__actions { display: flex; align-items: center; gap: 12px; }
+.header__book { height: 46px; padding: 0 22px; }
+.header__offers {
+  height: 46px; padding: 0 16px; border-radius: 999px; border: 1px solid var(--red); background: transparent; color: var(--red);
+  display: none; align-items: center; gap: 8px; font-size: 12px; letter-spacing: .14em; font-weight: 500; white-space: nowrap;
+}
+.header__offers:hover { background: var(--red); color: #fff; }
+.header__count {
+  min-width: 18px; height: 18px; padding: 0 5px; border-radius: 999px; background: var(--red); color: #fff;
+  font-size: 10.5px; letter-spacing: 0; display: flex; align-items: center; justify-content: center;
+}
+.header__offers:hover .header__count { background: #fff; color: var(--red); }
+.header__menu {
+  width: 48px; height: 48px; border: 1px solid var(--line); background: transparent; color: var(--red);
+  display: none; align-items: center; justify-content: center;
+}
+
+/* Tablet & below: hamburger menu */
+@media (max-width: 1179px) {
+  .header__nav { display: none; }
+  .header__menu { display: flex; }
+}
+/* Tablet: offers button lives in the header */
+@media (min-width: 760px) and (max-width: 1099px) {
+  .header__offers { display: flex; }
+}
+/* Phone */
+@media (max-width: 759px) {
+  .header__book { display: none; }
+  .brand { gap: 10px; }
+  .brand__logo { height: 38px; }
+  .brand__rule { height: 28px; }
+  .brand__place { font-size: 9px; letter-spacing: .28em; }
+}
+@media (max-width: 340px) {
+  .brand__rule, .brand__place { display: none; }
+}
+
+/* ---------- Mobile menu ---------- */
+.mobile-menu {
+  position: fixed; inset: var(--header-h) 0 0 0; z-index: 39;
+  background: #fff; overflow: auto; overscroll-behavior: contain;
+  padding: 24px var(--gutter) calc(120px + var(--bottom-bar));
+  animation: hfFade .25s ease;
+}
+.mobile-menu__link {
+  display: flex; justify-content: space-between; align-items: center; padding: 18px 0;
+  border-bottom: 1px solid var(--line-soft); font-family: var(--font-display); font-size: 30px; line-height: 1.2; color: var(--ink);
+}
+.mobile-menu__link span { font-size: 14px; color: var(--red); }
+.mobile-menu__link.active { color: var(--red); }
+.mobile-menu__meta { margin-top: 28px; font-size: 14px; color: var(--muted); display: grid; gap: 4px; }
+.mobile-menu__meta a { color: var(--ink); font-weight: 500; }
+@media (min-width: 1180px) { .mobile-menu { display: none; } }
+
+/* ---------- Why Habib’s ---------- */
+.why {
+  padding-top: clamp(56px, 7vw, 96px); padding-bottom: clamp(56px, 7vw, 96px);
+  display: flex; flex-wrap: wrap; gap: 32px 48px; align-items: center;
+}
+.why--about { padding-bottom: clamp(72px, 9vw, 128px); }
+.why__title { flex: 0 0 240px; font-family: var(--font-display); font-weight: 300; font-size: clamp(34px, 3.6vw, 48px); line-height: 1.1; }
+.why__grid { flex: 1 1 520px; display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); row-gap: 20px; }
+.why__item {
+  display: flex; flex-direction: column; align-items: center; gap: 14px; padding: 12px 16px;
+  text-align: center; border-left: 1px solid var(--line-input);
+}
+.why__icon {
+  width: 48px; height: 48px; border-radius: 50%; border: 1px solid var(--pink-line); color: var(--red);
+  display: flex; align-items: center; justify-content: center;
+}
+.why__label { font-size: 14px; line-height: 1.4; }
+@media (max-width: 559px) {
+  .why__title { flex-basis: 100%; }
+  .why__grid { flex-basis: 100%; grid-template-columns: repeat(2, minmax(0, 1fr)); }
+}
+
+/* ---------- Footer ---------- */
+.site-footer { background: var(--ink); color: var(--line-input); }
+.footer__inner { padding-top: clamp(56px, 7vw, 96px); padding-bottom: 32px; }
+.footer__grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 210px), 1fr)); gap: 40px; }
+.footer__logo { height: 56px; width: auto; }
+.footer__place { font-size: 10px; letter-spacing: .42em; color: var(--pink-line); font-weight: 500; margin-top: 10px; }
+.footer__text { margin-top: 18px; font-size: 14px; }
+.footer__text--tight { margin-top: 10px; }
+.footer__address { margin-top: 14px; line-height: 1.7; }
+.footer__head { font-size: 11px; letter-spacing: .18em; text-transform: uppercase; font-weight: 500; color: var(--pink-line); }
+.footer__head--spaced { margin-top: 24px; }
+.footer__list { margin-top: 14px; display: grid; gap: 6px; font-size: 14px; }
+.footer__list a { color: var(--line-input); justify-self: start; }
+.footer__list a:hover, .footer__social a:hover { color: #fff; }
+.footer__list .footer__phone { color: #fff; }
+.footer__email { word-break: break-all; }
+.footer__social {
+  margin-top: 20px; display: grid; grid-template-columns: 1fr 1fr; gap: 8px;
+  font-size: 12px; letter-spacing: .12em; font-weight: 500;
+}
+.footer__social a {
+  height: 44px; display: flex; align-items: center; justify-content: center; gap: 8px;
+  border: 1px solid #4A4645; color: #fff;
+}
+.footer__social a:hover { background: var(--rose); border-color: var(--rose); }
+.footer__bottom {
+  margin-top: 56px; padding-top: 22px; border-top: 1px solid #3D3A39;
+  display: flex; flex-wrap: wrap; justify-content: space-between; gap: 12px; font-size: 12.5px; color: #A9A2A0;
+}
+
+/* ---------- Floating social ---------- */
+.fab-stack {
+  position: fixed; z-index: 30; display: flex; flex-direction: column; gap: 10px;
+  right: max(24px, env(safe-area-inset-right, 0px)); bottom: 24px;
+}
+.fab {
+  width: 54px; height: 54px; border-radius: 50%; color: #fff;
+  display: flex; align-items: center; justify-content: center; box-shadow: 0 8px 24px rgba(43, 43, 43, .22);
+}
+.fab:hover { color: #fff; transform: translateY(-3px); }
+.fab--ig { background: linear-gradient(45deg, #F58529, #DD2A7B 50%, #8134AF); }
+.fab--fb { background: #1877F2; }
+.fab--wa { background: #25D366; }
+/* Below ~1420px the stack would sit on top of page content, so keep only WhatsApp */
+@media (max-width: 1419px) { .fab--ig, .fab--fb { display: none; } }
+/* Phones: the bottom action bar already carries Call and WhatsApp, so the bubbles would only cover content */
+@media (max-width: 759px) { .fab-stack { display: none; } }
+
+/* ---------- Offers tab (left edge, large screens) ---------- */
+.offers-tab {
+  position: fixed; left: 0; top: 50%; transform: translateY(-50%); z-index: 31;
+  width: 34px; padding: 14px 0; border: none; border-radius: 0 12px 12px 0; background: var(--red); color: #fff;
+  display: none; flex-direction: column; align-items: center; gap: 10px;
+  box-shadow: 4px 8px 24px rgba(139, 30, 37, .28);
+}
+.offers-tab:hover { background: var(--red-dark); }
+.offers-tab__pulse {
+  position: absolute; inset: 0; border-radius: 0 12px 12px 0; pointer-events: none;
+  animation: hfPulse 2s var(--ease) infinite;
+}
+.offers-tab__label { writing-mode: vertical-rl; transform: rotate(180deg); font-size: 11px; letter-spacing: .24em; font-weight: 500; }
+.offers-tab__count {
+  width: 18px; height: 18px; border-radius: 50%; background: #fff; color: var(--red);
+  font-size: 10.5px; font-weight: 600; display: flex; align-items: center; justify-content: center;
+}
+@keyframes hfPulse {
+  from { box-shadow: 0 0 0 0 rgba(165, 68, 74, .6); }
+  to { box-shadow: 0 0 0 10px rgba(165, 68, 74, 0); }
+}
+@media (min-width: 1100px) { .offers-tab { display: flex; } }
+
+/* ---------- Mobile action bar ---------- */
+.mobile-bar {
+  position: fixed; left: 0; right: 0; bottom: 0; z-index: 45;
+  display: none; grid-template-columns: repeat(4, 1fr);
+  background: var(--red); padding-bottom: env(safe-area-inset-bottom, 0px);
+  border-radius: 18px 18px 0 0; box-shadow: 0 -8px 30px rgba(43, 43, 43, .12);
+}
+.mobile-bar a, .mobile-bar button {
+  position: relative; height: 66px; border: none; background: transparent; color: #fff;
+  display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 6px;
+  font-size: 11.5px; letter-spacing: .08em;
+}
+.mobile-bar a:hover { color: #fff; }
+.mobile-bar a:active, .mobile-bar button:active { background: rgba(0, 0, 0, .12); }
+.mobile-bar__count {
+  position: absolute; top: 9px; left: calc(50% + 6px); min-width: 16px; height: 16px; padding: 0 4px; border-radius: 999px;
+  background: #fff; color: var(--red); font-size: 10px; font-weight: 600; display: flex; align-items: center; justify-content: center;
+}
+@media (max-width: 759px) { .mobile-bar { display: grid; } }
+
+/* Phones: the top bar shows the hours only (WhatsApp and Call are in the bottom bar, social links in the footer) */
+@media (max-width: 759px) {
+  .topbar__links { display: none; }
+  .topbar__inner { justify-content: center; }
+}
