@@ -61,6 +61,7 @@ export const PAGE_META = {
   '/bridal': ['Bridal & Groom Makeup Packages | Habib’s Fuljhore, Durgapur', 'Bridal makeup, pre-bridal packages, groom packages, party makeup and saree draping in Durgapur.'],
   '/about': ['About Us | Habib’s Fuljhore, Durgapur', 'Habib’s Fuljhore brings the Habibs name and its decades of hair and beauty craft to Durgapur.'],
   '/contact': ['Contact & Directions | Habib’s Fuljhore, Durgapur', '1st Floor, Above Rangoli Bistro, B1 More, Fuljhore, Durgapur. Open every day, 10:30 AM – 9:00 PM. Call +91 8927563835.'],
+  '/book': ['Book an Appointment | Habib’s Fuljhore, Durgapur', 'Book your hair, beauty, makeup or bridal appointment at Habib’s Fuljhore, B1 More, Fuljhore, Durgapur. Pick your services, day and time in a few taps.'],
 };
 
 export const SLOTS = ['10:30 AM', '11:00 AM', '12:00 PM', '1:30 PM', '3:00 PM', '4:30 PM', '6:00 PM', '7:30 PM'];

@@ -1,5 +1,5 @@
-import { useEffect, useRef } from 'react';
-import { Navigate, Route, Routes, useLocation } from 'react-router-dom';
+import { useEffect, useRef, useState } from 'react';
+import { Navigate, Route, Routes, useLocation, useNavigate, useSearchParams } from 'react-router-dom';
 import { Header, MobileMenu } from './components/Header';
 import { Footer } from './components/Footer';
 import { FloatingSocial, MobileBar, OffersTab } from './components/Floating';
@@ -27,6 +27,28 @@ function ScrollToTop() {
   return null;
 }
 
+// /book: the home page with the booking form open (the link for the Book button on Google Business).
+// /book?service=<id> preselects a service. Closing the form leaves the visitor on the home page.
+function BookPage() {
+  const { booking, openBooking } = useUI();
+  const [params] = useSearchParams();
+  const navigate = useNavigate();
+  const asked = useRef(false);
+  const [wasOpen, setWasOpen] = useState(false);
+  useEffect(() => {
+    if (asked.current) return;
+    asked.current = true;
+    const svc = params.get('service');
+    openBooking(svc ? { ids: [svc] } : {});
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, []);
+  useEffect(() => {
+    if (booking) setWasOpen(true);
+    else if (wasOpen) navigate('/', { replace: true });
+  }, [booking, wasOpen, navigate]);
+  return <Home />;
+}
+
 function Shell() {
   useReveal();
   usePageMeta();
@@ -50,6 +72,7 @@ function Shell() {
           <Route path="/bridal" element={<Bridal />} />
           <Route path="/about" element={<About />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="/book" element={<BookPage />} />
           <Route path="*" element={<Navigate to="/" replace />} />
         </Routes>
         </div>

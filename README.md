@@ -15,9 +15,15 @@ Requires Node.js 18 or newer.
 
 ## Deploy
 
-The `dist/` folder is the finished website. Every host needs the "send all pages to index.html" rule, which is already included:
+The `dist/` folder is the finished website: one HTML file per page (`index.html`, `hair.html`, `book.html`, …).
 
-- **Netlify:** drag `dist/` onto app.netlify.com/drop (`_redirects` is included).
+- **Cloudflare Pages (main host):** Workers & Pages → Create → **Pages** → Connect to Git → this repository.
+  Build command `npm run build`, output directory `dist`. Environment variables (Production *and* Preview):
+  `VITE_SUPABASE_URL`, `VITE_SUPABASE_ANON_KEY`, `SITE_URL`, `NODE_VERSION` = `22`. Every push to `main` deploys.
+  Pages serves `/hair` from `hair.html` by itself, and unknown addresses get the home page because there is no
+  `404.html` (keep it that way, and don't add a `/* /index.html 200` rule to `_redirects`: on Pages it loops).
+  `public/_headers` sets long browser caching for `assets/` and `images/`.
+- **Netlify:** drag `dist/` onto app.netlify.com/drop (`_headers` is read too; unknown addresses show Netlify's 404 page).
 - **Vercel:** import the repo; framework "Vite" (`vercel.json` is included).
 - **Hostinger / cPanel / any Apache host:** upload the contents of `dist/` to `public_html` (`.htaccess` is included).
 - **Sub-folder hosting (e.g. GitHub Pages):** set `base: '/folder-name/'` in `vite.config.js` before building.
@@ -36,7 +42,7 @@ Set `SITE_URL` (in `.env` or the host's build settings) to the live address, e.g
 canonical links, absolute preview images, `sitemap.xml` and a `robots.txt` pointing to it. Then add the site in
 **Google Search Console** and submit `https://YOUR-DOMAIN/sitemap.xml`.
 
-Hosting: `/hair` is served from `hair.html`. Cloudflare Pages and Netlify do this by themselves; `vercel.json` has
+Hosting: `/hair` is served from `hair.html`. Cloudflare Pages and Netlify do this by themselves (see Deploy); `vercel.json` has
 `cleanUrls`, and `.htaccess` has the rule for Apache / Hostinger.
 
 ## Pages

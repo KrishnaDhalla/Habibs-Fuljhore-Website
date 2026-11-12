@@ -38,9 +38,11 @@ const abs = (p) => (SITE_URL ? SITE_URL + p : '');
 // Preview image per page (files in public/images)
 const OG_IMAGE = {
   '/': 'home-hero-1600', '/hair': 'page-hair-1400', '/beauty': 'page-beauty-1400', '/bridal': 'bride-1200',
-  '/services': 'cat-hair-1200', '/about': 'history-today-440', '/contact': 'home-hero-1600',
+  '/services': 'cat-hair-1200', '/about': 'history-today-440', '/contact': 'home-hero-1600', '/book': 'home-hero-1600',
 };
-const PAGE_NAME = { '/services': 'Services & Prices', '/hair': 'Hair', '/beauty': 'Beauty', '/bridal': 'Bridal & Groom', '/about': 'About', '/contact': 'Contact' };
+const PAGE_NAME = { '/services': 'Services & Prices', '/hair': 'Hair', '/beauty': 'Beauty', '/bridal': 'Bridal & Groom', '/about': 'About', '/contact': 'Contact', '/book': 'Book an Appointment' };
+// Pages that show another page's content: Google is told the original is the main one, and they stay out of the sitemap
+const CANONICAL = { '/book': '/' };
 
 // Fonts used above the fold: fetched in parallel with the CSS instead of after it
 const fonts = readdirSync(resolve(dist, 'assets')).filter((f) => /^jost-latin-(400|500)-normal-.*\.woff2$/.test(f));
@@ -94,7 +96,7 @@ function salonData(path) {
 }
 
 function headFor(path, title, desc) {
-  const url = abs(path === '/' ? '/' : path);
+  const url = abs(CANONICAL[path] || path);
   const img = abs('/images/' + (OG_IMAGE[path] || OG_IMAGE['/']) + '.webp');
   const tags = [
     `<title>${esc(title)}</title>`,
@@ -152,7 +154,7 @@ if (SITE_URL) {
   const prio = { '/': '1.0', '/services': '0.9', '/hair': '0.9', '/beauty': '0.9', '/bridal': '0.9' };
   writeFileSync(resolve(dist, 'sitemap.xml'), `<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-${pages.map((p) => `  <url><loc>${SITE_URL}${p === '/' ? '/' : p}</loc><lastmod>${today}</lastmod><changefreq>weekly</changefreq><priority>${prio[p] || '0.6'}</priority></url>`).join('\n')}
+${pages.filter((p) => !CANONICAL[p]).map((p) => `  <url><loc>${SITE_URL}${p === '/' ? '/' : p}</loc><lastmod>${today}</lastmod><changefreq>weekly</changefreq><priority>${prio[p] || '0.6'}</priority></url>`).join('\n')}
 </urlset>
 `);
   writeFileSync(resolve(dist, 'robots.txt'), `User-agent: *\nAllow: /\n\nSitemap: ${SITE_URL}/sitemap.xml\n`);

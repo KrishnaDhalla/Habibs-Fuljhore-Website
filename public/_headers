@@ -1,0 +1,12 @@
+# Cloudflare Pages / Netlify response headers
+# Built files have a fingerprint in their name, so browsers can keep them for a year
+/assets/*
+  Cache-Control: public, max-age=31536000, immutable
+
+/images/*
+  Cache-Control: public, max-age=2592000
+
+# Every page: basic security headers (pages themselves are re-checked by the browser on each visit, Cloudflare's default)
+/*
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: strict-origin-when-cross-origin
