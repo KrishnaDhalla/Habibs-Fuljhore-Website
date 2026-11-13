@@ -4,7 +4,7 @@ import { useUI } from '../context/UIContext';
 import { fmt, getCatalogue, inOffer, match, priceWith, tok, totalOf, useCatalogue } from '../lib/catalogue';
 import { dateLabel, googleCalendarLink, iso, shortDate, slotDate } from '../lib/dates';
 import { requestBooking } from '../lib/salonApi';
-import { SITE, SLOTS, waHello } from '../data/site';
+import { CAT_LABELS, SITE, SLOTS, waHello } from '../data/site';
 
 const LABELS = ['Service', 'Date', 'Time', 'Details', 'Confirm'];
 const WEEKDAYS = ['MON', 'TUE', 'WED', 'THU', 'FRI', 'SAT', 'SUN'];
@@ -24,7 +24,7 @@ function BookingFlow({ init, onClose }) {
   const [b, setB] = useState(() => {
     const sel = init.ids.filter((id) => getCatalogue().byId[id]);
     return {
-      step: sel.length ? 2 : 1, sel, choices: {}, q: init.q, mOff: 0, date: null, time: null,
+      step: sel.length ? 2 : 1, sel, choices: {}, q: init.q, tab: 'all', mOff: 0, date: null, time: null,
       name: '', phone: '', email: '', stylist: '', req: init.req, offer: init.offer, offerId: init.offerId,
       tried: false, done: false, sent: false, bid: '', sending: false, error: '',
     };
@@ -148,7 +148,11 @@ function BookingFlow({ init, onClose }) {
                       <Search size={18} aria-hidden="true" />
                       <input value={b.q} onChange={(e) => set({ q: e.target.value })} placeholder="Search services..." aria-label="Search services" />
                     </label>
-                    <BookList items={items} q={b.q} sel={b.sel} onToggle={toggle} />
+                    <BookList
+                      items={items} q={b.q} sel={b.sel} onToggle={toggle} tab={b.tab}
+                      onTab={(tab) => { set({ tab }); if (paneRef.current) paneRef.current.scrollTo(0, 0); }}
+                      onClear={() => set({ q: '' })}
+                    />
                   </>
                 )}
 
@@ -352,24 +356,74 @@ function BookingFlow({ init, onClose }) {
 
 const SIZE_NAME = { S: 'S (shoulder)', M: 'M (below shoulder)', L: 'L (waist)', XL: 'XL (below waist)' };
 
-function BookList({ items, q, sel, onToggle }) {
+// Booking tabs come from the categories in the billing app: the category's tab ("Facials", "Colour", …),
+// or for categories without tabs (Makeup, Bridal, Groom) the category name. Shorter names for small screens.
+const TAB_SHORT = { 'Cuts & Styling': 'Haircut & Styling', 'Spa & Treatments': 'Hair Spa & Treatments', 'Mani / Pedi': 'Manicure & Pedicure' };
+const tabOf = (g) => g.tab || CAT_LABELS[g.cat] || g.title;
+
+function BookList({ items, q, sel, onToggle, tab, onTab, onClear }) {
   const t = tok(q);
-  const list = items.filter((it) => it.book && match(it, t));
+  const bookable = items.filter((it) => it.book);
+  const tabs = [...new Set(bookable.map((it) => tabOf(it.g)))];
+  const cur = tabs.includes(tab) ? tab : 'all';
+  const hits = bookable.filter((it) => match(it, t));
+  const list = cur === 'all' ? hits : hits.filter((it) => tabOf(it.g) === cur);
+  const count = (tb) => (tb === 'all' ? hits : hits.filter((it) => tabOf(it.g) === tb)).length;
+  const picked = (tb) => sel.filter((id) => bookable.some((it) => it.id === id && tabOf(it.g) === tb)).length;
+
+  // Grouped under category headings (Men's Hair Spa, O3+ Facials, …)
+  const groups = [];
+  list.forEach((it) => {
+    const last = groups[groups.length - 1];
+    if (last && last.title === it.group) last.its.push(it);
+    else groups.push({ title: it.group, its: [it] });
+  });
+
   return (
-    <div className="book-list">
-      {list.slice(0, 40).map((it) => {
-        const on = sel.includes(it.id);
-        return (
-          <button type="button" role="checkbox" aria-checked={on} key={it.id} className={'book-item' + (on ? ' is-on' : '')} onClick={() => onToggle(it.id)}>
-            <span className="book-item__box" aria-hidden="true">{on ? '✓' : ''}</span>
-            <span className="book-item__text"><span className="book-item__name">{it.label}</span><span className="book-item__group">{it.group}</span></span>
-            <span className="book-item__price">{it.short}</span>
-          </button>
-        );
-      })}
-      {list.length === 0 && <p className="booking__fine">No services match “{q}”. Try a shorter word, like “spa” or “wax”.</p>}
-      {list.length > 40 && <p className="booking__fine">Showing first 40 — search to narrow down.</p>}
-    </div>
+    <>
+      <div className="book-tabs" role="tablist" aria-label="Service categories">
+        {['all', ...tabs].map((tb) => {
+          const n = picked(tb);
+          if (t.length && tb !== cur && tb !== 'all' && count(tb) === 0) return null; // while searching, only tabs with matches
+          return (
+            <button
+              type="button" role="tab" key={tb} aria-selected={cur === tb}
+              className={'chip chip--solid' + (cur === tb ? ' is-active' : '')}
+              onClick={(e) => { onTab(tb); e.currentTarget.scrollIntoView({ block: 'nearest', inline: 'nearest' }); }}
+            >
+              {tb === 'all' ? 'All' : TAB_SHORT[tb] || tb}
+              {t.length > 0 && <span className="book-tabs__n">{count(tb)}</span>}
+              {n > 0 && !t.length && <span className="book-tabs__sel" aria-label={n + ' selected'}>{n}</span>}
+            </button>
+          );
+        })}
+      </div>
+      <div className="book-list" role="tabpanel">
+        {groups.map((g) => (
+          <div className="book-group" key={g.title}>
+            <div className="book-group__title">{g.title}</div>
+            {g.its.map((it) => {
+              const on = sel.includes(it.id);
+              return (
+                <button type="button" role="checkbox" aria-checked={on} key={it.id} className={'book-item' + (on ? ' is-on' : '')} onClick={() => onToggle(it.id)}>
+                  <span className="book-item__box" aria-hidden="true">{on ? '✓' : ''}</span>
+                  <span className="book-item__text"><span className="book-item__name">{it.label}</span>{it.sub && <span className="book-item__group">{it.sub}</span>}</span>
+                  <span className="book-item__price">{it.short}</span>
+                </button>
+              );
+            })}
+          </div>
+        ))}
+        {list.length === 0 && (
+          <div className="booking__fine">
+            {t.length ? <>No services match “{q}”{cur !== 'all' ? ' in ' + (TAB_SHORT[cur] || cur) : ''}. </> : 'Nothing here yet. '}
+            {cur !== 'all' && hits.length > 0
+              ? <button type="button" className="link-btn" onClick={() => onTab('all')}>Show {hits.length} match{hits.length > 1 ? 'es' : ''} in all services</button>
+              : t.length > 0 && <>Try a shorter word, like “spa” or “wax”, or <button type="button" className="link-btn" onClick={onClear}>clear the search</button>.</>}
+          </div>
+        )}
+      </div>
+    </>
   );
 }
 

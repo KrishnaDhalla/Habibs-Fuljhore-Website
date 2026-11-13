@@ -133,6 +133,31 @@
 .booking__fine { margin-top: 18px; font-size: 13px; color: var(--muted-2); }
 .booking__fine--wide { max-width: 640px; margin-top: 16px; }
 
+/* Category tabs: one swipeable row that stays at the top while the list scrolls */
+.book-tabs {
+  position: sticky; top: calc(-1 * clamp(20px, 3vw, 36px)); z-index: 2; /* flush with the pane's top edge, past its padding */
+  display: flex; gap: 8px; overflow-x: auto; scrollbar-width: none; scroll-snap-type: x proximity;
+  margin: 14px calc(-1 * clamp(20px, 3vw, 36px)) 0; padding: 12px clamp(20px, 3vw, 36px);
+  scroll-padding-inline: clamp(20px, 3vw, 36px);
+  background: #fff; border-bottom: 1px solid var(--line-row);
+}
+.book-tabs::-webkit-scrollbar { display: none; }
+@media (min-width: 760px) { .book-tabs { flex-wrap: wrap; overflow: visible; } }
+.book-tabs .chip { scroll-snap-align: start; height: 40px; padding: 0 14px; display: inline-flex; align-items: center; gap: 7px; }
+.book-tabs__n { font-size: 11.5px; color: var(--muted); font-weight: 400; }
+.book-tabs .is-active .book-tabs__n { color: rgba(255, 255, 255, .75); }
+.book-tabs__sel {
+  min-width: 19px; height: 19px; padding: 0 5px; border-radius: 10px; background: var(--ink); color: #fff;
+  font-size: 11px; line-height: 19px; text-align: center;
+}
+.book-tabs .is-active .book-tabs__sel { background: #fff; color: var(--ink); }
+.book-group__title {
+  margin-top: 18px; padding-bottom: 6px; font-size: 11.5px; letter-spacing: .14em; text-transform: uppercase;
+  font-weight: 500; color: var(--muted);
+}
+.book-group:first-child .book-group__title { margin-top: 6px; }
+.link-btn { border: none; background: none; padding: 0; color: var(--ink); text-decoration: underline; font: inherit; cursor: pointer; }
+
 .book-list { margin-top: 10px; }
 .book-item {
   width: 100%; display: grid; grid-template-columns: auto minmax(0, 1fr) auto; gap: 14px; align-items: center;
